@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArrayList_IsEmpty extends ArrayListTesting {
+    private final static String METHOD_NAME = ".isEmpty()";
 
     static void testEmptyArray(){
         // given
@@ -10,7 +11,7 @@ public class ArrayList_IsEmpty extends ArrayListTesting {
         boolean expected = true;
         boolean actual = arrayList.isEmpty();
         // then
-        assert expected == actual : message(".testEmptyArray()", expected, actual);
+        assertTrue(METHOD_NAME, expected, actual);
     }
 
     static void testNonEmptyArray(){
@@ -20,6 +21,6 @@ public class ArrayList_IsEmpty extends ArrayListTesting {
         boolean expected = false;
         boolean actual = arrayList.isEmpty();
         // then
-        assert expected == actual : message(".testEmptyArray()", expected, actual);
+        assertTrue(METHOD_NAME, expected, actual);
     }
 }
