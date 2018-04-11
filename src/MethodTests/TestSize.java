@@ -2,7 +2,7 @@ package MethodTests;
 import java.util.Arrays;
 import java.util.List;
 
-public class Size extends ArrayListTesting {
+public class TestSize extends ListTesting {
     private final static String METHOD_NAME = ".size()";
 
     public static void fiveToFive(List list) {

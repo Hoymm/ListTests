@@ -7,18 +7,22 @@ class ListTest {
     }
 
     private static void testSize(ListType listType) {
-        Size.fiveToFive(listType.generateNewList());
-        Size.zeroToZero(listType.generateNewList());
+        TestSize.fiveToFive(listType.createNewObj());
+        TestSize.zeroToZero(listType.createNewObj());
     }
 
     private static void testIsEmpty(ListType listType) {
-        IsEmpty.testEmptyArray(listType.generateNewList());
-        IsEmpty.testNonEmptyArray(listType.generateNewList());
+        TestIsEmpty.testEmptyArray(listType.createNewObj());
+        TestIsEmpty.testNonEmptyArray(listType.createNewObj());
     }
 
     private static void testContains(ListType listType) {
-        Contains.checkIfEmptyListCointainsNull(listType.generateNewList());
-        Contains.checkIfICanFindAStringInObjectsArray(listType.generateNewList());
-        Contains.checkIfICannotFindAStringInObjectsArray(listType.generateNewList());
+        TestContains.checkIfEmptyListCointainsNull(listType.createNewObj());
+        TestContains.checkIfICanFindAStringInObjectsArray(listType.createNewObj());
+        TestContains.checkIfICannotFindAStringInObjectsArray(listType.createNewObj());
+    }
+
+    private static void testIterator(ListType listType) {
+        
     }
 }

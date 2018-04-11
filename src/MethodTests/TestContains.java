@@ -3,7 +3,7 @@ package MethodTests;
 import java.util.Arrays;
 import java.util.List;
 
-public class Contains extends ArrayListTesting {
+public class TestContains extends ListTesting {
     private final static String METHOD_NAME = ".contains()";
 
     public static void checkIfEmptyListCointainsNull(List list) {

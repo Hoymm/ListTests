@@ -5,15 +5,17 @@ import java.util.List;
 public enum ListType{
     arrayList {
         @Override
-        List generateNewList(){
+        List createNewObj(){
             return new ArrayList();
         }
     },
+
     linkedList {
         @Override
-        List generateNewList(){
+        List createNewObj(){
             return new LinkedList();
         }
     };
-    abstract List generateNewList();
+
+    abstract List createNewObj();
 }

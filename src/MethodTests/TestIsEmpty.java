@@ -2,14 +2,14 @@ package MethodTests;
 import java.util.Arrays;
 import java.util.List;
 
-public class IsEmpty extends ArrayListTesting {
+public class TestIsEmpty extends ListTesting {
     private final static String METHOD_NAME = ".isEmpty()";
 
     public static void testEmptyArray(List list){
         // given
 
         // when
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = list.isEmpty();
         // then
         assertTrue(list.getClass() + METHOD_NAME, expected, actual);
