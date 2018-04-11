@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        testEquals();
+        testSize();
     }
 
-    private static void testEquals() {
-        ArrayList_Equality.fiveToFive();
-        ArrayList_Equality.zeroToZero();
+    private static void testSize() {
+        ArrayList_Size.fiveToFive();
+        ArrayList_Size.zeroToZero();
     }
 }

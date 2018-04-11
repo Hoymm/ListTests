@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class ArrayList_Equality extends ArrayListTesting {
+class ArrayList_Size extends ArrayListTesting {
     static void fiveToFive() {
         // given
         ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(1,2,3,4,5));
