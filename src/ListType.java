@@ -8,12 +8,22 @@ public enum ListType{
         List createNewObj(){
             return new ArrayList();
         }
+
+        @Override
+        public String toString() {
+            return "ArrayList";
+        }
     },
 
     linkedList {
         @Override
         List createNewObj(){
             return new LinkedList();
+        }
+
+        @Override
+        public String toString() {
+            return "LinkedList";
         }
     };
 

@@ -1,10 +1,15 @@
 import MethodTests.*;
 class ListTest {
     static void run(ListType listType){
-        testSize(listType);
-        testIsEmpty(listType);
-        testContains(listType);
-        testIterator(listType);
+        long time = System.currentTimeMillis();
+
+        new Thread(() -> testSize(listType)).start();
+        new Thread(() -> testIsEmpty(listType)).start();
+        new Thread(() -> testContains(listType)).start();
+        new Thread(() -> testIterator(listType)).start();
+        new Thread(() -> testToArray(listType)).start();
+
+        System.out.println(listType + ", testing time: " + (System.currentTimeMillis() - time) + "ms.");
     }
 
     private static void testSize(ListType listType) {
@@ -26,5 +31,10 @@ class ListTest {
     private static void testIterator(ListType listType) {
         TestIterator.testIfEmptyHasNoNextItem(listType.createNewObj());
         TestIterator.testIteratorWithSomeElements(listType.createNewObj());
+    }
+
+    private static void testToArray(ListType listType) {
+        TestToArray.equalsEmptyArray(listType.createNewObj());
+        TestToArray.equalsExampleArrays(listType.createNewObj());
     }
 }
