@@ -1,12 +1,13 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ArrayList_Contains extends ArrayListTesting {
     private final static String METHOD_NAME = ".contains()";
 
     static void checkIfEmptyListCointainsNull() {
         // given
-        ArrayList <Integer> arrayList = new ArrayList<>();
+        List<Integer> arrayList = new ArrayList<>();
         // when
         boolean expected = arrayList.contains(null);
         boolean actual = false;
@@ -16,7 +17,7 @@ public class ArrayList_Contains extends ArrayListTesting {
 
     static void checkIfICanFindAStringInObjectsArray(){
         // given
-        ArrayList arrayList = new ArrayList<>(Arrays.asList(1,2,3, new Object(), "heheh"));
+        List arrayList = new ArrayList<>(Arrays.asList(1,2,3, new Object(), "heheh"));
         // when
         boolean expected = true;
         boolean actual = arrayList.contains("heheh");
@@ -26,7 +27,7 @@ public class ArrayList_Contains extends ArrayListTesting {
 
     static void checkIfICannotFindAStringInObjectsArray(){
         // given
-        ArrayList arrayList = new ArrayList<>(Arrays.asList(1,2,3, new Object(), "heheh"));
+        List arrayList = new ArrayList<>(Arrays.asList(1,2,3, new Object(), "heheh"));
         // when
         boolean expected = false;
         boolean actual = arrayList.contains("NIE MA");
