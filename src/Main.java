@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        ArrayListTests.run();
+        ListTest.run(ListType.arrayList);
+        ListTest.run(ListType.linkedList);
     }
 }
