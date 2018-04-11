@@ -12,7 +12,7 @@ public class IsEmpty extends ArrayListTesting {
         boolean expected = false;
         boolean actual = list.isEmpty();
         // then
-        ArrayListTesting.assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
     }
 
     public static void testNonEmptyArray(List list){
@@ -22,6 +22,6 @@ public class IsEmpty extends ArrayListTesting {
         boolean expected = false;
         boolean actual = list.isEmpty();
         // then
-        ArrayListTesting.assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
     }
 }

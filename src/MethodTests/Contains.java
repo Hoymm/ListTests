@@ -23,7 +23,7 @@ public class Contains extends ArrayListTesting {
         boolean expected = true;
         boolean actual = list.contains("heheh");
         // then
-        ArrayListTesting.assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
     }
 
     public static void checkIfICannotFindAStringInObjectsArray(List list){
@@ -33,6 +33,6 @@ public class Contains extends ArrayListTesting {
         boolean expected = false;
         boolean actual = list.contains("NIE MA");
         // then
-        ArrayListTesting.assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
     }
 }

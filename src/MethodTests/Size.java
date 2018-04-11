@@ -12,7 +12,7 @@ public class Size extends ArrayListTesting {
         int expected = 5;
         int actual = list.size();
         // then
-        ArrayListTesting.assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
     }
 
     public static void zeroToZero(List list) {
@@ -22,6 +22,6 @@ public class Size extends ArrayListTesting {
         int expected = 0;
         int actual = list.size();
         // then
-        ArrayListTesting.assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
     }
 }
