@@ -4,6 +4,7 @@ class ListTest {
         testSize(listType);
         testIsEmpty(listType);
         testContains(listType);
+        testIterator(listType);
     }
 
     private static void testSize(ListType listType) {
@@ -23,6 +24,7 @@ class ListTest {
     }
 
     private static void testIterator(ListType listType) {
-        
+        TestIterator.testIfEmptyHasNoNextItem(listType.createNewObj());
+        TestIterator.testIteratorWithSomeElements(listType.createNewObj());
     }
 }
