@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class TestSize extends ListTesting {
+    // TODO refactor names
     private final static String METHOD_NAME = ".size()";
 
     public static void fiveToFive(List list) {

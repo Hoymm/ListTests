@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class TestIterator extends ListTesting{
+    // TODO refactor names
     private final static String METHOD_NAME = ".iterator()";
 
     public static void testIfEmptyHasNoNextItem(List list) {

@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class TestIsEmpty extends ListTesting {
+    // TODO refactor names
     private final static String METHOD_NAME = ".isEmpty()";
 
     public static void testEmptyArray(List list){
@@ -19,7 +20,7 @@ public class TestIsEmpty extends ListTesting {
         // given
         list.addAll(Arrays.asList(1,2,3,4,500));
         // when
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = list.isEmpty();
         // then
         assertTrue(list.getClass() + METHOD_NAME, expected, actual);

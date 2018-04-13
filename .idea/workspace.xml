@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee6c49c-a7ed-49d1-8044-33656f7986e3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListTests/MethodTests/TestToArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/MethodTests/TestToArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListTests/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListTests/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/ListTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/ListTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/TestContains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/TestContains.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/TestIsEmpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/TestIsEmpty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/TestIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/TestIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/TestSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/TestSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/TestToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/TestToArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +28,17 @@
       <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="396">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListTesting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -29,8 +46,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="144">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,21 +55,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ListType.java">
+      <file leaf-file-name="TestToArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="415">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="236" column="27" lean-forward="true" selection-start-line="236" selection-start-column="27" selection-end-line="236" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
+                <element signature="docComment;class#List#0" />
+                <element signature="e#5819#6058#0" />
+                <element signature="e#6080#6223#0" />
+                <element signature="e#6252#7030#0" />
+                <element signature="e#7068#7241#0" />
+                <element signature="e#7275#7934#0" />
+                <element signature="e#7964#9975#0" />
+                <element signature="e#10042#11177#0" />
+                <element signature="e#11205#12367#0" />
+                <element signature="e#12441#13316#0" />
+                <element signature="e#13364#14620#0" />
+                <element signature="e#14673#16345#0" />
+                <element signature="e#16409#17370#0" />
+                <element signature="e#17416#18498#0" />
+                <element signature="e#18544#19825#0" />
+                <element signature="e#18544#20074#0" />
+                <element signature="e#20080#23218#0" />
+                <element signature="e#20080#23535#0" />
+                <element signature="e#23541#23807#0" />
+                <element signature="e#23863#24651#0" />
+                <element signature="e#24687#25363#0" />
+                <element signature="e#25427#25753#0" />
+                <element signature="e#25781#26746#0" />
+                <element signature="e#26785#27806#0" />
+                <element signature="e#27848#28477#0" />
+                <element signature="e#28535#29436#0" />
+                <element signature="e#29469#30369#0" />
+                <element signature="e#30430#30637#0" />
+                <element signature="e#30679#31522#0" />
+                <element signature="e#31586#33457#0" />
+                <element signature="e#33512#35048#0" />
+                <element signature="e#33512#35323#0" />
+                <element signature="e#35329#35610#0" />
+                <element signature="e#35706#36114#0" />
+                <element signature="e#36213#36657#0" />
+                <element signature="e#36766#37247#0" />
+                <element signature="e#37366#37882#0" />
+                <element signature="e#38011#38562#0" />
+                <element signature="e#38701#39286#0" />
+                <element signature="e#38701#39477#0" />
+                <element signature="e#39483#40107#0" />
+                <element signature="e#39483#40308#0" />
+                <element signature="e#40314#40974#0" />
+                <element signature="e#40314#41185#0" />
+                <element signature="e#41191#41885#0" />
+                <element signature="e#41191#42106#0" />
+                <element signature="e#42112#42841#0" />
+                <element signature="e#42112#43074#0" />
+                <element signature="e#43080#44130#0" />
+                <element signature="e#44135#44147#0" />
+                <element signature="e#43080#44672#0" />
               </folding>
             </state>
           </provider>
@@ -71,6 +139,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>run</find>
+      <find>getDeclaredMethods</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,14 +163,14 @@
         <option value="$PROJECT_DIR$/src/MethodTests/Size.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/IsEmptyTest.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/ArrayListTesting.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/TestIsEmpty.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/TestSize.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/TestContains.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/ListTesting.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/TestIterator.java" />
         <option value="$PROJECT_DIR$/src/ListType.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/TestToArray.java" />
         <option value="$PROJECT_DIR$/src/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/TestContains.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/TestSize.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/TestIterator.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/TestIsEmpty.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/ListTesting.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/TestToArray.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -236,7 +305,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="737" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -247,13 +316,13 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35015774" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.407767" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947367" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5145631" visible="true" weight="0.24963397" />
-      <window_info id="Structure" order="1" sideWeight="0.4854369" side_tool="true" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.50637525" visible="true" weight="0.25506938" />
+      <window_info id="Structure" order="1" sideWeight="0.49362478" side_tool="true" visible="true" weight="0.25506938" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -276,6 +345,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -293,30 +390,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java" />
     <entry file="file://$PROJECT_DIR$/src/ListType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -342,30 +423,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java" />
     <entry file="file://$PROJECT_DIR$/src/ListType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -398,16 +463,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -459,104 +515,70 @@
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/util/Arrays.java" />
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/AssertionMessage.java" />
-    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/util/List.java" />
     <entry file="file://$PROJECT_DIR$/src/ArrayListTesting.java" />
     <entry file="file://$PROJECT_DIR$/src/Lists.java" />
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/ArrayList.java">
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/ArrayList.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/LinkedList.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Iterator.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Thread.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Class.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/Reflection.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/reflect/Method.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java" />
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+        <state relative-caret-position="384">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/LinkedList.java">
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+        <state relative-caret-position="214">
+          <caret line="556" column="68" selection-start-line="556" selection-start-column="68" selection-end-line="556" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestSize.java">
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="48" />
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="143">
+          <caret line="2447" column="52" selection-start-line="2447" selection-start-column="34" selection-end-line="2447" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/TestContains.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="6" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Iterator.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestSize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="82" column="34" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestIsEmpty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="831" column="47" selection-start-line="831" selection-start-column="44" selection-end-line="831" selection-end-column="47" />
+        <state relative-caret-position="72">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/TestIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestIsEmpty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="2422" column="18" selection-start-line="2422" selection-start-column="18" selection-end-line="2422" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/Reflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="360" selection-start-line="360" selection-end-line="360" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="116">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -565,54 +587,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ListType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="20">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="396">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="563" selection-start-line="563" selection-end-line="563" />
+        <state relative-caret-position="90">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="415">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="211">
+          <caret line="236" column="27" lean-forward="true" selection-start-line="236" selection-start-column="27" selection-end-line="236" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;class#List#0" />
+            <element signature="e#5819#6058#0" />
+            <element signature="e#6080#6223#0" />
+            <element signature="e#6252#7030#0" />
+            <element signature="e#7068#7241#0" />
+            <element signature="e#7275#7934#0" />
+            <element signature="e#7964#9975#0" />
+            <element signature="e#10042#11177#0" />
+            <element signature="e#11205#12367#0" />
+            <element signature="e#12441#13316#0" />
+            <element signature="e#13364#14620#0" />
+            <element signature="e#14673#16345#0" />
+            <element signature="e#16409#17370#0" />
+            <element signature="e#17416#18498#0" />
+            <element signature="e#18544#19825#0" />
+            <element signature="e#18544#20074#0" />
+            <element signature="e#20080#23218#0" />
+            <element signature="e#20080#23535#0" />
+            <element signature="e#23541#23807#0" />
+            <element signature="e#23863#24651#0" />
+            <element signature="e#24687#25363#0" />
+            <element signature="e#25427#25753#0" />
+            <element signature="e#25781#26746#0" />
+            <element signature="e#26785#27806#0" />
+            <element signature="e#27848#28477#0" />
+            <element signature="e#28535#29436#0" />
+            <element signature="e#29469#30369#0" />
+            <element signature="e#30430#30637#0" />
+            <element signature="e#30679#31522#0" />
+            <element signature="e#31586#33457#0" />
+            <element signature="e#33512#35048#0" />
+            <element signature="e#33512#35323#0" />
+            <element signature="e#35329#35610#0" />
+            <element signature="e#35706#36114#0" />
+            <element signature="e#36213#36657#0" />
+            <element signature="e#36766#37247#0" />
+            <element signature="e#37366#37882#0" />
+            <element signature="e#38011#38562#0" />
+            <element signature="e#38701#39286#0" />
+            <element signature="e#38701#39477#0" />
+            <element signature="e#39483#40107#0" />
+            <element signature="e#39483#40308#0" />
+            <element signature="e#40314#40974#0" />
+            <element signature="e#40314#41185#0" />
+            <element signature="e#41191#41885#0" />
+            <element signature="e#41191#42106#0" />
+            <element signature="e#42112#42841#0" />
+            <element signature="e#42112#43074#0" />
+            <element signature="e#43080#44130#0" />
+            <element signature="e#44135#44147#0" />
+            <element signature="e#43080#44672#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="144">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

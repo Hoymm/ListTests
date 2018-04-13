@@ -4,9 +4,7 @@ import java.lang.reflect.Modifier;
 
 public class Main {
     public static void main(String[] args) {
-        Method [] listTestMethods = ListTest.class.getDeclaredMethods();
-
-        System.out.println(listTestMethods);
+        Method[] listTestMethods = ListTest.class.getDeclaredMethods();
         for (Method curMethod : listTestMethods)
             if (isPublicStaticNotMain(curMethod)) {
                 testMethodInSepThread(curMethod, ListType.arrayList);
@@ -23,10 +21,12 @@ public class Main {
     private static void testMethodInSepThread(Method method, ListType listType) {
         new Thread(() -> {
             try {
-                method.invoke(listType);
+                method.invoke(null, listType);
             } catch (IllegalAccessException e) {
+                //TODO handle it
                 e.printStackTrace();
             } catch (InvocationTargetException e) {
+                //TODO handle it
                 e.printStackTrace();
             }
         }).start();

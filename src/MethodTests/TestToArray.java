@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class TestToArray extends ListTesting {
+    // TODO refactor names
     private final static String METHOD_NAME = ".toArray()";
 
     public static void equalsEmptyArray(List list) {
