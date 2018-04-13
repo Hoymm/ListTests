@@ -1,38 +1,58 @@
 import MethodTests.*;
-public class ListTest {
-    /*
-    public void classesToTest(){
-        Class [] classesToTest = new Class[]{
-                TestAdd.class, TestContains.class, TestIsEmpty.class, TestIterator.class, TestSize.class, TestToArray.class};
-    }*/
 
-    public static void testSize(ListType listType) {
-        TestSize.fiveToFive(listType.createNewObj());
-        TestSize.zeroToZero(listType.createNewObj());
-    }
-    public static void testIsEmpty(ListType listType) {
-        TestIsEmpty.testEmptyArray(listType.createNewObj());
-        TestIsEmpty.testNonEmptyArray(listType.createNewObj());
-    }
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
 
-    public static void testContains(ListType listType) {
-        TestContains.checkIfEmptyListCointainsNull(listType.createNewObj());
-        TestContains.checkIfICanFindAStringInObjectsArray(listType.createNewObj());
-        TestContains.checkIfICannotFindAStringInObjectsArray(listType.createNewObj());
-    }
+class ListTest {
+    final static private Class [] classesToTest = new Class[]{
+            TestSize.class
+            , TestIsEmpty.class
+            , TestContains.class
+            , TestIterator.class
+            , TestToArray.class
+            , TestAdd.class
 
-    public static void testIterator(ListType listType) {
-        TestIterator.testIfEmptyHasNoNextItem(listType.createNewObj());
-        TestIterator.testIteratorWithSomeElements(listType.createNewObj());
+    };
+
+    static void runTestsForListImplementation(ListType listType) {
+        for (Class classToTest : classesToTest)
+            runAllMethodsFromClass(classToTest, listType);
     }
 
-    public static void testToArray(ListType listType) {
-        TestToArray.equalsEmptyArray(listType.createNewObj());
-        TestToArray.equalsExampleArrays(listType.createNewObj());
+    private static void runAllMethodsFromClass(Class classToTest, ListType listType) {
+        Method [] toTestMethods = classToTest.getDeclaredMethods();
+        runAllMethods(toTestMethods, listType);
     }
 
-    public static void testAdd(ListType listType) {
-        TestAdd.addNull_GetNullAllowed(listType.createNewObj());
-        TestAdd.listAferAdd1_equalToListWith1(listType.createNewObj());
+    private static void runAllMethods(Method[] toTestMethods, ListType listType) {
+        for (Method testMethod : toTestMethods) {
+            if (isPublicStaticNotMain(testMethod))
+                testMethodInSepThread(testMethod, listType);
+        }
+    }
+
+    private static boolean isPublicStaticNotMain(Method methodName) {
+        return !methodName.getName().equalsIgnoreCase("main") &&
+                Modifier.isPublic(methodName.getModifiers()) &&
+                Modifier.isStatic(methodName.getModifiers());
+    }
+
+    private static void testMethodInSepThread(Method testMethod, ListType listType) {
+        System.out.println(testMethod.toString());
+
+
+
+        new Thread(() -> {
+            try {
+                testMethod.invoke(null, listType.createNewObj());
+            } catch (IllegalAccessException e) {
+                //TODO handle it
+                e.printStackTrace();
+            } catch (InvocationTargetException e) {
+                //TODO handle it
+                e.printStackTrace();
+            }
+        }).start();
     }
 }
