@@ -16,7 +16,7 @@ public class TestIterator extends ListTesting{
         boolean expected = false;
         boolean actual = iterator.hasNext();
         // then
-        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
     }
 
     public static void testIteratorWithSomeElements(List list) {
@@ -29,7 +29,7 @@ public class TestIterator extends ListTesting{
             int expected = (Integer) iterator.next();
             int actual = aTab;
             // then
-            assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+            assertEquals(list.getClass() + METHOD_NAME, expected, actual);
         }
         assert !iterator.hasNext() : list.getClass() + METHOD_NAME + " iterator should setted on last item.";
     }

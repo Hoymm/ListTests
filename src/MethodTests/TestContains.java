@@ -14,7 +14,7 @@ public class TestContains extends ListTesting {
         boolean expected = list.contains(null);
         boolean actual = false;
         // then
-        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
     }
 
     public static void checkIfICanFindAStringInObjectsArray(List list){
@@ -24,7 +24,7 @@ public class TestContains extends ListTesting {
         boolean expected = true;
         boolean actual = list.contains("heheh");
         // then
-        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
     }
 
     public static void checkIfICannotFindAStringInObjectsArray(List list){
@@ -34,6 +34,6 @@ public class TestContains extends ListTesting {
         boolean expected = false;
         boolean actual = list.contains("NIE MA");
         // then
-        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
     }
 }

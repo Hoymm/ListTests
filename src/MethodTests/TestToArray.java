@@ -13,7 +13,7 @@ public class TestToArray extends ListTesting {
         boolean expected = true;
         boolean actual = Arrays.equals(list.toArray(), new Object []{});
         // then
-        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
     }
 
     public static void equalsExampleArrays(List list) {
@@ -23,6 +23,6 @@ public class TestToArray extends ListTesting {
         boolean expected = Arrays.equals(new Object[]{1,2,3,4}, list.toArray());
         boolean actual = true;
         // then
-        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
     }
 }

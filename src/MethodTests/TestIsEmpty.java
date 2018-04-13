@@ -13,16 +13,16 @@ public class TestIsEmpty extends ListTesting {
         boolean expected = true;
         boolean actual = list.isEmpty();
         // then
-        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
     }
 
     public static void testNonEmptyArray(List list){
         // given
         list.addAll(Arrays.asList(1,2,3,4,500));
         // when
-        boolean expected = true;
+        boolean expected = false;
         boolean actual = list.isEmpty();
         // then
-        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
     }
 }

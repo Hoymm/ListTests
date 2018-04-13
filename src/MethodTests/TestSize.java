@@ -13,7 +13,7 @@ public class TestSize extends ListTesting {
         int expected = 5;
         int actual = list.size();
         // then
-        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
     }
 
     public static void zeroToZero(List list) {
@@ -23,6 +23,6 @@ public class TestSize extends ListTesting {
         int expected = 0;
         int actual = list.size();
         // then
-        assertTrue(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
     }
 }

@@ -4,6 +4,10 @@ import java.lang.reflect.Modifier;
 
 public class Main {
     public static void main(String[] args) {
+        testArrayAndLinkedLists();
+    }
+
+    private static void testArrayAndLinkedLists() {
         Method[] listTestMethods = ListTest.class.getDeclaredMethods();
         for (Method curMethod : listTestMethods)
             if (isPublicStaticNotMain(curMethod)) {
