@@ -12,7 +12,7 @@ class ListTest {
             , TestIterator.class
             , TestToArray.class
             , TestAdd.class
-
+            , TestRemove.class
     };
 
     static void runTestsForListImplementation(ListType listType) {
