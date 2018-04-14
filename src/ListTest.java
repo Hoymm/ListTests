@@ -13,6 +13,7 @@ class ListTest {
             , TestToArray.class
             , TestAdd.class
             , TestRemove.class
+            , ContainsAll.class
     };
 
     static void runTestsForListImplementation(ListType listType) {
