@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cee6c49c-a7ed-49d1-8044-33656f7986e3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListTests/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/ListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListTests/MethodTests/ContainsAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/MethodTests/ContainsAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListTests/MethodTests/ListTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/MethodTests/ListTesting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MethodTests/ContainsAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/ContainsAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListTests/MethodTests/AddAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/MethodTests/AddAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/AddAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/AddAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MethodTests/ListTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/ListTesting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddAll.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddAll.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MethodTests/AddAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="389">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListTesting.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListTesting.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="301">
+              <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -141,9 +138,9 @@
         <option value="$PROJECT_DIR$/src/MethodTests/TestRemove.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/ContainsAll.java" />
         <option value="$PROJECT_DIR$/src/ListTest.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/ListTesting.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/AddAll2.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/AddAll.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/ListTesting.java" />
       </list>
     </option>
   </component>
@@ -282,7 +279,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32901832" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32822084" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -528,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -597,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -615,6 +598,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/AddAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
@@ -622,13 +615,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/AddAll.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="64" />
         </state>
       </provider>
     </entry>

@@ -4,19 +4,17 @@ package MethodTests;
 import java.util.Arrays;
 import java.util.List;
 
-import static MethodTests.ListTesting.assertEquals;
-
-public class AddAll{
+public class AddAll extends ListTesting{
     private final static String METHOD_NAME = ".addAll()";
 
-    public static void list0_addAll123_shouldResultInList0123(List list0123) {
+    public static void list0_addAll123_shouldResultInList0123(List expectList0123) {
         // given
-        list0123.add(0);
+        expectList0123.add(0);
+        List actualList0123 = Arrays.asList(0,1,2,3);
         // when
-        list0123.addAll(Arrays.asList(1,2,3));
+        expectList0123.addAll(Arrays.asList(1,2,3));
         // then
-        for (int i = 0; i < list0123.size(); ++i)
-            assertEquals(list0123.getClass() + METHOD_NAME, i, list0123.get(i));
+        assertListsEquals(expectList0123.getClass() + METHOD_NAME, expectList0123, actualList0123);
     }
 
     public static void list04_addAll123FromIndex1_shouldResultInList01234(List expectedList01234) {
@@ -27,8 +25,6 @@ public class AddAll{
         // when
         expectedList01234.addAll(1, Arrays.asList(1,2,3));
         // then
-        for (int i = 0; i < actualList023.size(); ++i)
-            assertEquals(expectedList01234.getClass() + METHOD_NAME
-                    , expectedList01234.get(i), actualList023.get(i));
+        assertListsEquals(expectedList01234.getClass() + METHOD_NAME, expectedList01234, actualList023);
     }
 }
