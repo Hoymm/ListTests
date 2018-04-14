@@ -39,10 +39,6 @@ class ListTest {
     }
 
     private static void testMethodInSepThread(Method testMethod, ListType listType) {
-        System.out.println(testMethod.toString());
-
-
-
         new Thread(() -> {
             try {
                 testMethod.invoke(null, listType.createNewObj());
