@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee6c49c-a7ed-49d1-8044-33656f7986e3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListTests/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListTests/MethodTests/ContainsAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/MethodTests/ContainsAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListTests/MethodTests/ListTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/MethodTests/ListTesting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MethodTests/ContainsAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/ContainsAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/ListTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/ListTesting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +23,8 @@
       <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="166">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,11 +32,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListTesting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
+      <file leaf-file-name="AddAll.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MethodTests/AddAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="301">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +47,17 @@
       <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
         <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="309" column="12" selection-start-line="309" selection-start-column="12" selection-end-line="309" selection-end-column="12" />
+            <state relative-caret-position="477">
+              <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListTesting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -54,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContainsAll.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContainsAll.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MethodTests/ContainsAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+            <state relative-caret-position="162">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,6 +106,7 @@
       <find>ELO</find>
       <find>InvocationTargetException</find>
       <find>asList</find>
+      <find>addAll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,11 +137,13 @@
         <option value="$PROJECT_DIR$/src/MethodTests/TestIsEmpty.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/TestAdd.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/ListTesting.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/TestSize.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/TestRemove.java" />
-        <option value="$PROJECT_DIR$/src/ListTest.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/ContainsAll.java" />
+        <option value="$PROJECT_DIR$/src/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/ListTesting.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/AddAll2.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/AddAll.java" />
       </list>
     </option>
   </component>
@@ -268,14 +288,14 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29856852" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4427403" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947367" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.32361516" visible="true" weight="0.24947916" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5449541" visible="true" weight="0.24947916" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947367" />
-      <window_info id="Structure" order="1" sideWeight="0.67638487" side_tool="true" visible="true" weight="0.24947916" />
+      <window_info id="Structure" order="1" sideWeight="0.45504588" side_tool="true" visible="true" weight="0.24947916" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -316,25 +336,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java" />
-    <entry file="file://$PROJECT_DIR$/src/ListType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -552,17 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="4307" column="44" lean-forward="true" selection-start-line="4307" selection-start-column="44" selection-end-line="4307" selection-end-column="44" />
-          <folding>
-            <element signature="e#200641#200642#0" expanded="true" />
-            <element signature="e#200682#200683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/TestAdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -580,34 +570,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/ContainsAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="162">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/AddAll2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="309" column="12" selection-start-line="309" selection-start-column="12" selection-end-line="309" selection-end-column="12" />
+        <state relative-caret-position="88">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/ContainsAll.java">
+    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        <state relative-caret-position="166">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="4307" column="30" selection-start-line="4307" selection-start-column="30" selection-end-line="4307" selection-end-column="30" />
+          <folding>
+            <element signature="e#200641#200642#0" expanded="true" />
+            <element signature="e#200682#200683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/AddAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ContainsAll {
 
-    public static void list12_checkIfContainsList13(List list123) {
+    public static void doesList123_containsList13(List list123) {
         // given
         list123.add(1);
         list123.add(2);
