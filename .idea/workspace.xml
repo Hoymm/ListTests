@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee6c49c-a7ed-49d1-8044-33656f7986e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MethodTests/Clear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodTests/Equals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListTests/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/ListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListTests/MethodTests/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/MethodTests/Sort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/ListTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/ListTesting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="167">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveAll.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RemoveAll.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MethodTests/RemoveAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="260">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,20 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+      <file leaf-file-name="Equals.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MethodTests/Equals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MethodTests/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="96" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="96" />
+            <state relative-caret-position="326">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,45 +66,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Comparator.java">
+      <file leaf-file-name="ListTesting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-528">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="145">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
               <folding>
-                <element signature="docComment;method#compare#0;class#Comparator#0" />
-                <element signature="docComment;method#equals#0;class#Comparator#0" />
-                <element signature="docComment;method#reversed#0;class#Comparator#0" />
-                <element signature="docComment;method#thenComparing#0;class#Comparator#0" />
-                <element signature="method#thenComparing#0;class#Comparator#0" />
-                <element signature="e#9057#9180#0" />
-                <element signature="docComment;method#thenComparing#1;class#Comparator#0" />
-                <element signature="method#thenComparing#1;class#Comparator#0" />
-                <element signature="docComment;method#thenComparing#2;class#Comparator#0" />
-                <element signature="method#thenComparing#2;class#Comparator#0" />
-                <element signature="docComment;method#thenComparingInt#0;class#Comparator#0" />
-                <element signature="method#thenComparingInt#0;class#Comparator#0" />
-                <element signature="docComment;method#thenComparingLong#0;class#Comparator#0" />
-                <element signature="method#thenComparingLong#0;class#Comparator#0" />
-                <element signature="docComment;method#thenComparingDouble#0;class#Comparator#0" />
-                <element signature="method#thenComparingDouble#0;class#Comparator#0" />
-                <element signature="docComment;method#reverseOrder#0;class#Comparator#0" />
-                <element signature="docComment;method#naturalOrder#0;class#Comparator#0" />
-                <element signature="method#naturalOrder#0;class#Comparator#0" />
-                <element signature="docComment;method#nullsFirst#0;class#Comparator#0" />
-                <element signature="method#nullsFirst#0;class#Comparator#0" />
-                <element signature="docComment;method#nullsLast#0;class#Comparator#0" />
-                <element signature="method#nullsLast#0;class#Comparator#0" />
-                <element signature="docComment;method#comparing#0;class#Comparator#0" />
-                <element signature="method#comparing#0;class#Comparator#0" />
-                <element signature="docComment;method#comparing#1;class#Comparator#0" />
-                <element signature="method#comparing#1;class#Comparator#0" />
-                <element signature="docComment;method#comparingInt#0;class#Comparator#0" />
-                <element signature="method#comparingInt#0;class#Comparator#0" />
-                <element signature="docComment;method#comparingLong#0;class#Comparator#0" />
-                <element signature="method#comparingLong#0;class#Comparator#0" />
-                <element signature="docComment;method#comparingDouble#0;class#Comparator#0" />
-                <element signature="method#comparingDouble#0;class#Comparator#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,6 +102,7 @@
       <find>InvocationTargetException</find>
       <find>asList</find>
       <find>addAll</find>
+      <find>equals</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,14 +137,15 @@
         <option value="$PROJECT_DIR$/src/MethodTests/ContainsAll.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/AddAll2.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/TestIterator.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/ListTesting.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/AddAll.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/ReplaceAll.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/RetainAll.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/Sort.java" />
-        <option value="$PROJECT_DIR$/src/ListTest.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/Clear.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/RemoveAll.java" />
+        <option value="$PROJECT_DIR$/src/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/Equals.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/ListTesting.java" />
       </list>
     </option>
   </component>
@@ -329,12 +290,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4396728" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4396728" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32924336" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4890511" visible="true" weight="0.2546875" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4890511" visible="true" weight="0.2546875" />
       <window_info id="Structure" order="1" sideWeight="0.5109489" side_tool="true" visible="true" weight="0.2546875" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -358,13 +319,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -535,16 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-296">
@@ -643,16 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/RetainAll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -660,13 +594,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -680,10 +607,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="537" column="18" selection-start-line="537" selection-start-column="12" selection-end-line="537" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/RemoveAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="260">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/Equals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
