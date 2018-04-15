@@ -2,7 +2,7 @@ package ListAPITests;
 import java.util.Arrays;
 import java.util.List;
 
-public class TestIsEmpty extends ListTesting {
+public class IsEmpty extends ListTesting {
     // TODO refactor names
     private final static String METHOD_NAME = ".isEmpty()";
 

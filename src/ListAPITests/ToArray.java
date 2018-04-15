@@ -3,8 +3,8 @@ package ListAPITests;
 import java.util.Arrays;
 import java.util.List;
 
-public class TestToArray extends ListTesting {
-    // TODO refactor names
+public class ToArray extends ListTesting {
+    // TODO refactor names, there are two methods
     private final static String METHOD_NAME = ".toArray()";
 
     public static void equalsEmptyArray(List list) {

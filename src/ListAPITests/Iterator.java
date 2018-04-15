@@ -1,16 +1,15 @@
 package ListAPITests;
 
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 
-public class TestIterator extends ListTesting{
+public class Iterator extends ListTesting{
     // TODO refactor names
     private final static String METHOD_NAME = ".iterator()";
 
     public static void testIfEmptyHasNoNextItem(List list) {
         // given
-        Iterator iterator = list.iterator();
+        java.util.Iterator iterator = list.iterator();
 
         // when
         boolean expected = false;
@@ -23,7 +22,7 @@ public class TestIterator extends ListTesting{
         // given
         int[] tab = {1, 2, 3, 4, 5};
         list.addAll(Arrays.asList(1, 2, 3, 4, 5));
-        Iterator iterator = list.iterator();
+        java.util.Iterator iterator = list.iterator();
         for (int aTab : tab) {
             // when
             int expected = (Integer) iterator.next();

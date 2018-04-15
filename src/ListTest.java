@@ -6,13 +6,11 @@ import java.lang.reflect.Modifier;
 
 class ListTest {
     final static private Class [] classesToTest = new Class[]{
-            TestSize.class
-            , TestIsEmpty.class
-            , TestContains.class
-            , TestIterator.class
-            , TestToArray.class
-            , TestAdd.class
-            , TestRemove.class
+            Size.class
+            , IsEmpty.class
+            , Contains.class
+            , Iterator.class
+            , ToArray.class
             , ContainsAll.class
             , AddAll.class
             , RemoveAll.class
@@ -28,6 +26,7 @@ class ListTest {
             , Add.class
             , Remove.class
             , IndexOf.class
+            , LastIndexOf.class
     };
 
     static void runTestsForListImplementation(ListType listType) {

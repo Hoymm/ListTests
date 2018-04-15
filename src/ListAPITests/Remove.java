@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Remove extends ListTesting{
+
+    // TODO  handle two remove methods
     private final static String METHOD_NAME = ".remove()";
 
     public static void fromList123_removeIndex1_shouldResultInList13(List actualList) {
