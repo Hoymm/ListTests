@@ -17,6 +17,7 @@ class ListTest {
             , AddAll.class
             , RemoveAll.class
             , RetainAll.class
+            , ReplaceAll.class
     };
 
     static void runTestsForListImplementation(ListType listType) {
