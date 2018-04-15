@@ -25,6 +25,7 @@ class ListTest {
             , HashCode.class
             , Get.class
             , Set.class
+            , Add.class
     };
 
     static void runTestsForListImplementation(ListType listType) {
