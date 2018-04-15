@@ -18,6 +18,7 @@ class ListTest {
             , RemoveAll.class
             , RetainAll.class
             , ReplaceAll.class
+            , Sort.class
     };
 
     static void runTestsForListImplementation(ListType listType) {

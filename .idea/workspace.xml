@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee6c49c-a7ed-49d1-8044-33656f7986e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MethodTests/ReplaceAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodTests/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListTests/MethodTests/RetainAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/MethodTests/RetainAll.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/RetainAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/RetainAll.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="352">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,32 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReplaceAll.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MethodTests/ReplaceAll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnaryOperator.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/function/UnaryOperator.java">
+      <file leaf-file-name="RetainAll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MethodTests/RetainAll.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveAll.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MethodTests/RemoveAll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,24 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Arrays.java">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MethodTests/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-296">
-              <caret line="4307" column="30" selection-start-line="4307" selection-start-column="30" selection-end-line="4307" selection-end-column="30" />
-              <folding>
-                <element signature="e#200641#200642#0" expanded="true" />
-                <element signature="e#200682#200683#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListTesting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="330">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +53,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="434" column="17" selection-start-line="434" selection-start-column="17" selection-end-line="434" selection-end-column="17" />
+            <state relative-caret-position="-528">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="docComment;method#compare#0;class#Comparator#0" />
+                <element signature="docComment;method#equals#0;class#Comparator#0" />
+                <element signature="docComment;method#reversed#0;class#Comparator#0" />
+                <element signature="docComment;method#thenComparing#0;class#Comparator#0" />
+                <element signature="method#thenComparing#0;class#Comparator#0" />
+                <element signature="e#9057#9180#0" />
+                <element signature="docComment;method#thenComparing#1;class#Comparator#0" />
+                <element signature="method#thenComparing#1;class#Comparator#0" />
+                <element signature="docComment;method#thenComparing#2;class#Comparator#0" />
+                <element signature="method#thenComparing#2;class#Comparator#0" />
+                <element signature="docComment;method#thenComparingInt#0;class#Comparator#0" />
+                <element signature="method#thenComparingInt#0;class#Comparator#0" />
+                <element signature="docComment;method#thenComparingLong#0;class#Comparator#0" />
+                <element signature="method#thenComparingLong#0;class#Comparator#0" />
+                <element signature="docComment;method#thenComparingDouble#0;class#Comparator#0" />
+                <element signature="method#thenComparingDouble#0;class#Comparator#0" />
+                <element signature="docComment;method#reverseOrder#0;class#Comparator#0" />
+                <element signature="docComment;method#naturalOrder#0;class#Comparator#0" />
+                <element signature="method#naturalOrder#0;class#Comparator#0" />
+                <element signature="docComment;method#nullsFirst#0;class#Comparator#0" />
+                <element signature="method#nullsFirst#0;class#Comparator#0" />
+                <element signature="docComment;method#nullsLast#0;class#Comparator#0" />
+                <element signature="method#nullsLast#0;class#Comparator#0" />
+                <element signature="docComment;method#comparing#0;class#Comparator#0" />
+                <element signature="method#comparing#0;class#Comparator#0" />
+                <element signature="docComment;method#comparing#1;class#Comparator#0" />
+                <element signature="method#comparing#1;class#Comparator#0" />
+                <element signature="docComment;method#comparingInt#0;class#Comparator#0" />
+                <element signature="method#comparingInt#0;class#Comparator#0" />
+                <element signature="docComment;method#comparingLong#0;class#Comparator#0" />
+                <element signature="method#comparingLong#0;class#Comparator#0" />
+                <element signature="docComment;method#comparingDouble#0;class#Comparator#0" />
+                <element signature="method#comparingDouble#0;class#Comparator#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,9 +158,10 @@
         <option value="$PROJECT_DIR$/src/MethodTests/ListTesting.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/AddAll.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/RemoveAll.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/ReplaceAll.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/RetainAll.java" />
         <option value="$PROJECT_DIR$/src/ListTest.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/ReplaceAll.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/Sort.java" />
       </list>
     </option>
   </component>
@@ -293,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1081" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -333,31 +335,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ListType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -581,20 +558,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/RemoveAll.java">
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/function/UnaryOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/RetainAll.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/ReplaceAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -608,27 +582,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/function/UnaryOperator.java">
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="-528">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="docComment;method#compare#0;class#Comparator#0" />
+            <element signature="docComment;method#equals#0;class#Comparator#0" />
+            <element signature="docComment;method#reversed#0;class#Comparator#0" />
+            <element signature="docComment;method#thenComparing#0;class#Comparator#0" />
+            <element signature="method#thenComparing#0;class#Comparator#0" />
+            <element signature="e#9057#9180#0" />
+            <element signature="docComment;method#thenComparing#1;class#Comparator#0" />
+            <element signature="method#thenComparing#1;class#Comparator#0" />
+            <element signature="docComment;method#thenComparing#2;class#Comparator#0" />
+            <element signature="method#thenComparing#2;class#Comparator#0" />
+            <element signature="docComment;method#thenComparingInt#0;class#Comparator#0" />
+            <element signature="method#thenComparingInt#0;class#Comparator#0" />
+            <element signature="docComment;method#thenComparingLong#0;class#Comparator#0" />
+            <element signature="method#thenComparingLong#0;class#Comparator#0" />
+            <element signature="docComment;method#thenComparingDouble#0;class#Comparator#0" />
+            <element signature="method#thenComparingDouble#0;class#Comparator#0" />
+            <element signature="docComment;method#reverseOrder#0;class#Comparator#0" />
+            <element signature="docComment;method#naturalOrder#0;class#Comparator#0" />
+            <element signature="method#naturalOrder#0;class#Comparator#0" />
+            <element signature="docComment;method#nullsFirst#0;class#Comparator#0" />
+            <element signature="method#nullsFirst#0;class#Comparator#0" />
+            <element signature="docComment;method#nullsLast#0;class#Comparator#0" />
+            <element signature="method#nullsLast#0;class#Comparator#0" />
+            <element signature="docComment;method#comparing#0;class#Comparator#0" />
+            <element signature="method#comparing#0;class#Comparator#0" />
+            <element signature="docComment;method#comparing#1;class#Comparator#0" />
+            <element signature="method#comparing#1;class#Comparator#0" />
+            <element signature="docComment;method#comparingInt#0;class#Comparator#0" />
+            <element signature="method#comparingInt#0;class#Comparator#0" />
+            <element signature="docComment;method#comparingLong#0;class#Comparator#0" />
+            <element signature="method#comparingLong#0;class#Comparator#0" />
+            <element signature="docComment;method#comparingDouble#0;class#Comparator#0" />
+            <element signature="method#comparingDouble#0;class#Comparator#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/RemoveAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/ReplaceAll.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/RetainAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        <state relative-caret-position="374">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
