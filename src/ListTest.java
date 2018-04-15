@@ -26,6 +26,7 @@ class ListTest {
             , Get.class
             , Set.class
             , Add.class
+            , Remove.class
     };
 
     static void runTestsForListImplementation(ListType listType) {

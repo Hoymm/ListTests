@@ -26,4 +26,6 @@ public class RemoveAll extends ListTesting{
         // then
         assertListsEquals(actualList.getClass() + METHOD_NAME, expectedList2, actualList);
     }
+
+    // TODO try to add some objects to method, few nulls and remove all null occurences
 }
