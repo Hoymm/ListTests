@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee6c49c-a7ed-49d1-8044-33656f7986e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MethodTests/Equals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodTests/Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodTests/HashCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListTests/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/ListTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodTests/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/Clear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MethodTests/ListTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodTests/ListTesting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +23,8 @@
       <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="431">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,13 +32,109 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Get.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MethodTests/Get.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashCode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MethodTests/HashCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Clear.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MethodTests/Clear.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="352">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+              <folding>
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1386">
+              <caret line="523" column="4" selection-start-line="523" selection-start-column="4" selection-end-line="523" selection-end-column="4" />
+              <folding>
+                <element signature="docComment;class#List#0" />
+                <element signature="e#5819#6058#0" />
+                <element signature="e#6080#6223#0" />
+                <element signature="e#6252#7030#0" />
+                <element signature="e#7068#7241#0" />
+                <element signature="e#7275#7934#0" />
+                <element signature="e#7964#9975#0" />
+                <element signature="e#10042#11177#0" />
+                <element signature="e#11205#12367#0" />
+                <element signature="e#12441#13316#0" />
+                <element signature="e#13364#14620#0" />
+                <element signature="e#14673#16345#0" />
+                <element signature="e#16409#17370#0" />
+                <element signature="e#17416#18498#0" />
+                <element signature="e#18544#19825#0" />
+                <element signature="e#18544#20074#0" />
+                <element signature="e#20080#23218#0" />
+                <element signature="e#20080#23535#0" />
+                <element signature="e#23541#23807#0" />
+                <element signature="e#23863#24651#0" />
+                <element signature="e#24687#25363#0" />
+                <element signature="e#25427#25753#0" />
+                <element signature="e#25781#26746#0" />
+                <element signature="e#26785#27806#0" />
+                <element signature="e#27848#28477#0" />
+                <element signature="e#28535#29436#0" />
+                <element signature="e#29469#30369#0" />
+                <element signature="e#30430#30637#0" />
+                <element signature="e#30679#31522#0" />
+                <element signature="e#31586#33457#0" />
+                <element signature="e#33512#35048#0" />
+                <element signature="e#33512#35323#0" />
+                <element signature="e#35329#35610#0" />
+                <element signature="e#35706#36114#0" />
+                <element signature="e#36213#36657#0" />
+                <element signature="e#36766#37247#0" />
+                <element signature="e#37366#37882#0" />
+                <element signature="e#38011#38562#0" />
+                <element signature="e#38701#39286#0" />
+                <element signature="e#38701#39477#0" />
+                <element signature="e#39483#40107#0" />
+                <element signature="e#39483#40308#0" />
+                <element signature="e#40314#40974#0" />
+                <element signature="e#40314#41185#0" />
+                <element signature="e#41191#41885#0" />
+                <element signature="e#41191#42106#0" />
+                <element signature="e#42112#42841#0" />
+                <element signature="e#42112#43074#0" />
+                <element signature="e#43080#44130#0" />
+                <element signature="e#44135#44147#0" />
+                <element signature="e#43080#44672#0" />
               </folding>
             </state>
           </provider>
@@ -57,8 +155,8 @@
       <file leaf-file-name="Equals.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MethodTests/Equals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="238">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListTesting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListTesting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="682">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,6 +201,8 @@
       <find>asList</find>
       <find>addAll</find>
       <find>equals</find>
+      <find>remove</find>
+      <find>get</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,7 +231,6 @@
         <option value="$PROJECT_DIR$/src/MethodTests/TestToArray.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/TestIsEmpty.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/TestAdd.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/TestSize.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/TestRemove.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/ContainsAll.java" />
@@ -141,11 +240,14 @@
         <option value="$PROJECT_DIR$/src/MethodTests/ReplaceAll.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/RetainAll.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/Sort.java" />
-        <option value="$PROJECT_DIR$/src/MethodTests/Clear.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/RemoveAll.java" />
-        <option value="$PROJECT_DIR$/src/ListTest.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/Equals.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/HashCode.java" />
+        <option value="$PROJECT_DIR$/src/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/Get.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/ListTesting.java" />
+        <option value="$PROJECT_DIR$/src/MethodTests/Clear.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -290,13 +392,13 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4396728" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38854805" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32924336" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4890511" visible="true" weight="0.2546875" />
-      <window_info id="Structure" order="1" sideWeight="0.5109489" side_tool="true" visible="true" weight="0.2546875" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7792642" visible="true" weight="0.2546875" />
+      <window_info id="Structure" order="1" sideWeight="0.22073579" side_tool="true" visible="true" weight="0.2546875" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -319,14 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/TestToArray.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -404,13 +498,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/AddAll2.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/ContainsAll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -597,23 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/Clear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="537" column="18" selection-start-line="537" selection-start-column="12" selection-end-line="537" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/RemoveAll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -624,20 +694,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodTests/Equals.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/HashCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/Get.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="242">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -646,10 +723,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodTests/ListTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="682">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="523" column="4" selection-start-line="523" selection-start-column="4" selection-end-line="523" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#List#0" />
+            <element signature="e#5819#6058#0" />
+            <element signature="e#6080#6223#0" />
+            <element signature="e#6252#7030#0" />
+            <element signature="e#7068#7241#0" />
+            <element signature="e#7275#7934#0" />
+            <element signature="e#7964#9975#0" />
+            <element signature="e#10042#11177#0" />
+            <element signature="e#11205#12367#0" />
+            <element signature="e#12441#13316#0" />
+            <element signature="e#13364#14620#0" />
+            <element signature="e#14673#16345#0" />
+            <element signature="e#16409#17370#0" />
+            <element signature="e#17416#18498#0" />
+            <element signature="e#18544#19825#0" />
+            <element signature="e#18544#20074#0" />
+            <element signature="e#20080#23218#0" />
+            <element signature="e#20080#23535#0" />
+            <element signature="e#23541#23807#0" />
+            <element signature="e#23863#24651#0" />
+            <element signature="e#24687#25363#0" />
+            <element signature="e#25427#25753#0" />
+            <element signature="e#25781#26746#0" />
+            <element signature="e#26785#27806#0" />
+            <element signature="e#27848#28477#0" />
+            <element signature="e#28535#29436#0" />
+            <element signature="e#29469#30369#0" />
+            <element signature="e#30430#30637#0" />
+            <element signature="e#30679#31522#0" />
+            <element signature="e#31586#33457#0" />
+            <element signature="e#33512#35048#0" />
+            <element signature="e#33512#35323#0" />
+            <element signature="e#35329#35610#0" />
+            <element signature="e#35706#36114#0" />
+            <element signature="e#36213#36657#0" />
+            <element signature="e#36766#37247#0" />
+            <element signature="e#37366#37882#0" />
+            <element signature="e#38011#38562#0" />
+            <element signature="e#38701#39286#0" />
+            <element signature="e#38701#39477#0" />
+            <element signature="e#39483#40107#0" />
+            <element signature="e#39483#40308#0" />
+            <element signature="e#40314#40974#0" />
+            <element signature="e#40314#41185#0" />
+            <element signature="e#41191#41885#0" />
+            <element signature="e#41191#42106#0" />
+            <element signature="e#42112#42841#0" />
+            <element signature="e#42112#43074#0" />
+            <element signature="e#43080#44130#0" />
+            <element signature="e#44135#44147#0" />
+            <element signature="e#43080#44672#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/Equals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodTests/Clear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+          <folding>
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
           </folding>
         </state>
       </provider>

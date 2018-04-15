@@ -41,8 +41,8 @@ abstract class ListTesting {
     }
 
     private static <T> String printShouldBeSameOrDifferent(String comment, T expected, T actual, boolean shouldBeEqual) {
-        return comment + "\nExpected list: " + "\u001B[32m" + expected + "\u001B[31m"
-                + (shouldBeEqual ? " should be equal to " : " should be different than ")
+        return comment + "\nExpected: " + "\u001B[32m" + expected + "\u001B[31m"
+                + (shouldBeEqual ? ", should be equal to " : ", should be different than ")
                 + "\u001B[30m" + actual + "\u001B[31m";
     }
 }

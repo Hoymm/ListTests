@@ -4,4 +4,8 @@ public class Main {
         ListTest.runTestsForListImplementation(ListType.arrayList);
         ListTest.runTestsForListImplementation(ListType.linkedList);
     }
+
+    public static int sum(int a, int b){
+        return a+b;
+    }
 }
