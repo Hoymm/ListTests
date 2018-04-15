@@ -4,6 +4,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
+import static org.graalvm.compiler.debug.Debug.log;
+
 class ListTest {
     final static private Class [] classesToTest = new Class[]{
             Size.class
@@ -58,11 +60,9 @@ class ListTest {
         new Thread(() -> {
             try {
                 testMethod.invoke(null, listType.createNewObj());
-            } catch (IllegalAccessException e) {
-                //TODO handle it
-                e.printStackTrace();
-            } catch (InvocationTargetException e) {
-                //TODO handle it
+            } catch (IllegalAccessException | InvocationTargetException e) {
+                log("Unable to invoke method "
+                        + testMethod.getName() + ", from class: " + testMethod.getClass());
                 e.printStackTrace();
             }
         }).start();

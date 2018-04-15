@@ -4,21 +4,19 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Iterator extends ListTesting{
-    // TODO refactor names
     private final static String METHOD_NAME = ".iterator()";
 
-    public static void testIfEmptyHasNoNextItem(List list) {
+    public static void emptyIterator_hasNext_shouldReturnInFalse(List list) {
         // given
         java.util.Iterator iterator = list.iterator();
 
         // when
-        boolean expected = false;
-        boolean actual = iterator.hasNext();
+        boolean emptyIteratorHasNext_False = iterator.hasNext();
         // then
-        assertEquals(list.getClass() + METHOD_NAME, expected, actual);
+        assertEquals(list.getClass() + METHOD_NAME, false, emptyIteratorHasNext_False);
     }
 
-    public static void testIteratorWithSomeElements(List list) {
+    public static void compareTable12345_toList12345_usingIterator(List list) {
         // given
         int[] tab = {1, 2, 3, 4, 5};
         list.addAll(Arrays.asList(1, 2, 3, 4, 5));
