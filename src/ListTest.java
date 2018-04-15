@@ -1,4 +1,4 @@
-import MethodTests.*;
+import ListAPITests.*;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -27,6 +27,7 @@ class ListTest {
             , Set.class
             , Add.class
             , Remove.class
+            , IndexOf.class
     };
 
     static void runTestsForListImplementation(ListType listType) {
