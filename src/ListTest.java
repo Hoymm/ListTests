@@ -28,6 +28,7 @@ class ListTest {
             , IndexOf.class
             , LastIndexOf.class
             , ListIterator.class
+            , SubList.class
     };
 
     static void runTestsForListImplementation(ListType listType) {

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee6c49c-a7ed-49d1-8044-33656f7986e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ListAPITests/ListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListAPITests/ListTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListAPITests/ListTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListAPITests/SubList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,32 +13,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="ListIterator.java" pinned="false" current-in-tab="true">
-              <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/ListIterator.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="377">
-                    <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ListAPITests/SubList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +51,8 @@
       <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
         <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+            <state relative-caret-position="839">
+              <caret line="733" column="12" selection-start-line="733" selection-start-column="12" selection-end-line="733" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -151,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ListAPITests/ListIterator.java" />
         <option value="$PROJECT_DIR$/src/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/ListAPITests/SubList.java" />
       </list>
     </option>
   </component>
@@ -284,7 +275,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1081" extended-state="7" />
+    <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -300,9 +291,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32924336" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.21709402" visible="true" weight="0.2546875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53675216" visible="true" weight="0.2546875" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924336" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.782906" side_tool="true" visible="true" weight="0.2546875" />
+      <window_info id="Structure" order="1" sideWeight="0.46324787" side_tool="true" visible="true" weight="0.2546875" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -324,7 +315,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AssertionMessage.java" />
     <entry file="file://$PROJECT_DIR$/src/ArrayListTesting.java" />
     <entry file="file://$PROJECT_DIR$/src/Lists.java" />
     <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/ArrayList.java" />
@@ -660,17 +650,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="733" column="12" selection-start-line="733" selection-start-column="12" selection-end-line="733" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/SubList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
