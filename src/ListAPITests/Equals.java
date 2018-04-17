@@ -22,7 +22,7 @@ public class Equals extends ListTesting{
         List exectedList123 = Arrays.asList(1,2,3,4);
         // when
         // then
-        assertListsNotEqual(list123.getClass() + METHOD_NAME, exectedList123, list123);
+        assertListsDifferent(list123.getClass() + METHOD_NAME, exectedList123, list123);
     }
 
     public static void list123_differentThan132(List list123) {
@@ -31,6 +31,6 @@ public class Equals extends ListTesting{
         List exectedList123 = Arrays.asList(1,3,2);
         // when
         // then
-        assertListsNotEqual(list123.getClass() + METHOD_NAME, exectedList123, list123);
+        assertListsDifferent(list123.getClass() + METHOD_NAME, exectedList123, list123);
     }
 }

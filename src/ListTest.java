@@ -3,6 +3,7 @@ import ListAPITests.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.math.BigInteger;
 
 class ListTest {
     final static private Class [] classesToTest = new Class[]{

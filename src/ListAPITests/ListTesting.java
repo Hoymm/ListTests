@@ -4,32 +4,32 @@ import java.util.Iterator;
 import java.util.List;
 
 abstract class ListTesting {
-    static <T> void assertEquals(String comment, T expected, T actual) {
+    public static <T> void assertEquals(String comment, T expected, T actual) {
         assert expected.equals(actual) : printMessageShouldBeEquals(comment, expected, actual);
     }
 
-    static void assertListsEquals(String comment, List expectedList, List actualList) {
-        Iterator itExpected = expectedList.iterator();
-        Iterator itActual = actualList.iterator();
-
-        assert expectedList.size() == actualList.size() : printMessageShouldBeEquals(comment, expectedList, actualList);
-
-        while (itExpected.hasNext() && itActual.hasNext())
-            assert itExpected.next() == itActual.next() : printMessageShouldBeEquals(comment, expectedList, actualList);
+    public static void assertListsEquals(String comment, List expectedList, List actualList) {
+        assert areListsEqual(expectedList, actualList) : printMessageShouldBeEquals(comment, expectedList, actualList);
     }
 
-    static void assertListsNotEqual(String comment, List expectedList, List actualList) {
-        Iterator itExpected = expectedList.iterator();
-        Iterator itActual = actualList.iterator();
+    public static void assertListsDifferent(String comment, List expectedList, List actualList) {
+        assert !areListsEqual(expectedList, actualList) : printMessageShouldNotBeEquals(comment, expectedList, actualList);
+    }
 
-        boolean equals = expectedList.size() == actualList.size();
-        while (itExpected.hasNext() && itActual.hasNext())
-            if (itExpected.next() != itActual.next()) {
-                equals = false;
-                break;
-            }
+    private static boolean areListsEqual(List list1, List list2){
+        return areListsSameSize(list1, list2) && areListsIdentical(list1, list2);
+    }
 
-        assert !equals : printMessageShouldNotBeEquals(comment, expectedList, actualList);
+    private static boolean areListsSameSize(List list1, List list2) {
+        return list1.size() == list2.size();
+    }
+
+    private static boolean areListsIdentical(List list1, List list2) {
+        Iterator iteratorL1 = list1.iterator(), iteratorL2 = list2.iterator();
+        while (iteratorL1.hasNext())
+            if (iteratorL1.next() != iteratorL2.next())
+                return false;
+        return true;
     }
 
     private static <T> String printMessageShouldBeEquals(String comment, T expected, T actual) {
@@ -45,4 +45,5 @@ abstract class ListTesting {
                 + (shouldBeEqual ? ", should equal " : ", shouldn't equal ")
                 + "(actual): \u001B[30m" + actual + "\u001B[31m";
     }
+
 }
