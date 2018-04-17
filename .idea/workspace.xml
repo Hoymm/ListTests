@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee6c49c-a7ed-49d1-8044-33656f7986e3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListTests/ListAPITests/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/ListAPITests/Add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListAPITests/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListAPITests/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListAPITests/AddAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListAPITests/AddAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListAPITests/RetainAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListAPITests/RetainAll.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Add.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Add.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListAPITests/Add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+            <state relative-caret-position="1320">
+              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,72 +39,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Class.java">
+      <file leaf-file-name="AddAll.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ListAPITests/AddAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="2055" column="18" selection-start-line="2055" selection-start-column="18" selection-end-line="2055" selection-end-column="18" />
+            <state relative-caret-position="25">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
+      <file leaf-file-name="IsEmpty.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ListAPITests/IsEmpty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="610" column="13" selection-start-line="610" selection-start-column="9" selection-end-line="610" selection-end-column="13" />
+            <state relative-caret-position="220">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding>
-                <element signature="docComment;class#List#0" />
-                <element signature="e#5819#6058#0" />
-                <element signature="e#6080#6223#0" />
-                <element signature="e#6252#7030#0" />
-                <element signature="e#7068#7241#0" />
-                <element signature="e#7275#7934#0" />
-                <element signature="e#7964#9975#0" />
-                <element signature="e#10042#11177#0" />
-                <element signature="e#11205#12367#0" />
-                <element signature="e#12441#13316#0" />
-                <element signature="e#13364#14620#0" />
-                <element signature="e#14673#16345#0" />
-                <element signature="e#16409#17370#0" />
-                <element signature="e#17416#18498#0" />
-                <element signature="e#18544#19825#0" />
-                <element signature="e#18544#20074#0" />
-                <element signature="e#20080#23218#0" />
-                <element signature="e#20080#23535#0" />
-                <element signature="e#23541#23807#0" />
-                <element signature="e#23863#24651#0" />
-                <element signature="e#24687#25363#0" />
-                <element signature="e#25427#25753#0" />
-                <element signature="e#25781#26746#0" />
-                <element signature="e#26785#27806#0" />
-                <element signature="e#27848#28477#0" />
-                <element signature="e#28535#29436#0" />
-                <element signature="e#29469#30369#0" />
-                <element signature="e#30430#30637#0" />
-                <element signature="e#30679#31522#0" />
-                <element signature="e#31586#33457#0" />
-                <element signature="e#33512#35048#0" />
-                <element signature="e#33512#35323#0" />
-                <element signature="e#35329#35610#0" />
-                <element signature="e#35706#36114#0" />
-                <element signature="e#36213#36657#0" />
-                <element signature="e#36766#37247#0" />
-                <element signature="e#37366#37882#0" />
-                <element signature="e#38011#38562#0" />
-                <element signature="e#38701#39286#0" />
-                <element signature="e#38701#39477#0" />
-                <element signature="e#39483#40107#0" />
-                <element signature="e#39483#40308#0" />
-                <element signature="e#40314#40974#0" />
-                <element signature="e#40314#41185#0" />
-                <element signature="e#41191#41885#0" />
-                <element signature="e#41191#42106#0" />
-                <element signature="e#42112#42841#0" />
-                <element signature="e#42112#43074#0" />
-                <element signature="e#43080#44130#0" />
-                <element signature="e#44135#44147#0" />
-                <element signature="e#43080#44672#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,8 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArrayList_Size.java" />
-        <option value="$PROJECT_DIR$/src/ArrayList_IsEmpty.java" />
         <option value="$PROJECT_DIR$/src/ArrayList_Contains.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/ArrayList_Contains.java" />
         <option value="$PROJECT_DIR$/src/Lists.java" />
@@ -206,6 +156,8 @@
         <option value="$PROJECT_DIR$/src/ListAPITests/ListTestingAPI.java" />
         <option value="$PROJECT_DIR$/src/ListAPITests/ListTesting.java" />
         <option value="$PROJECT_DIR$/src/ListAPITests/Add.java" />
+        <option value="$PROJECT_DIR$/src/ListAPITests/AddAll.java" />
+        <option value="$PROJECT_DIR$/src/ListAPITests/RetainAll.java" />
       </list>
     </option>
   </component>
@@ -339,7 +291,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1081" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -350,7 +302,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38752556" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38752556" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32924336" />
       <window_info id="Capture Tool" order="6" />
@@ -402,6 +354,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -466,13 +421,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/TestAdd.java" />
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/AddAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/LastIndexOf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -571,34 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/Contains.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/Size.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/IsEmpty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/RetainAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,6 +581,72 @@
             <element signature="e#425#426#0" expanded="true" />
             <element signature="e#479#480#0" expanded="true" />
             <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/ListTestingAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/Equals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/RemoveAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/ListTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/Contains.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/RetainAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -721,53 +711,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/ListTestingAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/Equals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/RemoveAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/ListTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
+        <state relative-caret-position="184">
           <caret line="2055" column="18" selection-start-line="2055" selection-start-column="18" selection-end-line="2055" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/IsEmpty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="220">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -776,8 +730,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/Add.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        <state relative-caret-position="1320">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/AddAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -9,7 +9,6 @@ public class RetainAll extends ListTesting{
 
     public static void list12345_retainAll35_shouldResultInList35(List actualList) {
         // given
-
         actualList.addAll(Arrays.asList(1,2,3,4,5));
         List expectedList35 = Arrays.asList(3,5);
         // when
