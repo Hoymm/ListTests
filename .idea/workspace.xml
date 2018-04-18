@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee6c49c-a7ed-49d1-8044-33656f7986e3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListTests/ListAPITests/Clear.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/ListAPITests/Clear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListTests/ListAPITests/ContainsAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListTests/ListAPITests/ContainsAll.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListAPITests/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListAPITests/Clear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListAPITests/ContainsAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListAPITests/ContainsAll.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +22,35 @@
       <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="248">
               <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Add.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Add.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ListAPITests/Add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="43" selection-end-column="93" />
+            <state relative-caret-position="104">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Clear.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ListAPITests/Clear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContainsAll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ListAPITests/ContainsAll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +58,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Clear.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ListAPITests/Clear.java">
+      <file leaf-file-name="AddAll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ListAPITests/AddAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+            <state relative-caret-position="190">
+              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MethodTests/ArrayList_Contains.java" />
         <option value="$PROJECT_DIR$/src/Lists.java" />
         <option value="$PROJECT_DIR$/src/ArrayListTesting.java" />
         <option value="$PROJECT_DIR$/src/MethodTests/Contains.java" />
@@ -143,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/ListAPITests/Add.java" />
         <option value="$PROJECT_DIR$/src/ListAPITests/RetainAll.java" />
         <option value="$PROJECT_DIR$/src/ListAPITests/AddAll.java" />
+        <option value="$PROJECT_DIR$/src/ListAPITests/ContainsAll.java" />
         <option value="$PROJECT_DIR$/src/ListAPITests/Clear.java" />
       </list>
     </option>
@@ -158,7 +179,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,8 +203,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,23 +298,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32719836" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32686085" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38752556" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38727078" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32924336" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.60094637" visible="true" weight="0.25364584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60094637" visible="true" weight="0.25667024" />
       <window_info id="Structure" order="1" sideWeight="0.39905363" side_tool="true" weight="0.25402635" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -321,45 +341,11 @@
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/Class.java" />
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/util/List.java" />
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/util/ArrayList.java" />
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="843" selection-start-line="843" selection-end-line="843" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/reflect/InvocationTargetException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Thread.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/reflect/InvocationTargetException.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodTests/AddAll2.java" />
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/ContainsAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/function/UnaryOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/function/UnaryOperator.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Comparator.java" />
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -392,13 +378,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/TestRemove.java" />
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Iterator.java" />
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/TestAdd.java" />
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/LastIndexOf.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -407,13 +387,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/ListIterator.java" />
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/ListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -428,13 +402,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Spliterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="394" column="9" selection-start-line="394" selection-start-column="9" selection-end-line="394" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Spliterator.java" />
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/Spliterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -442,34 +410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2222">
-          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/concurrent/ConcurrentLinkedDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3498">
-          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="232" column="18" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Queue.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/concurrent/ConcurrentLinkedDeque.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Deque.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/reflect/Method.java" />
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -477,13 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="3174" column="26" selection-start-line="3174" selection-start-column="26" selection-end-line="3174" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/Arrays.java" />
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/ToArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -508,13 +446,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="126" column="22" lean-forward="true" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/math/BigInteger.java" />
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/Remove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -529,27 +461,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/ListType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,107 +509,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="610" column="13" selection-start-line="610" selection-start-column="9" selection-end-line="610" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#List#0" />
-            <element signature="e#5819#6058#0" />
-            <element signature="e#6080#6223#0" />
-            <element signature="e#6252#7030#0" />
-            <element signature="e#7068#7241#0" />
-            <element signature="e#7275#7934#0" />
-            <element signature="e#7964#9975#0" />
-            <element signature="e#10042#11177#0" />
-            <element signature="e#11205#12367#0" />
-            <element signature="e#12441#13316#0" />
-            <element signature="e#13364#14620#0" />
-            <element signature="e#14673#16345#0" />
-            <element signature="e#16409#17370#0" />
-            <element signature="e#17416#18498#0" />
-            <element signature="e#18544#19825#0" />
-            <element signature="e#18544#20074#0" />
-            <element signature="e#20080#23218#0" />
-            <element signature="e#20080#23535#0" />
-            <element signature="e#23541#23807#0" />
-            <element signature="e#23863#24651#0" />
-            <element signature="e#24687#25363#0" />
-            <element signature="e#25427#25753#0" />
-            <element signature="e#25781#26746#0" />
-            <element signature="e#26785#27806#0" />
-            <element signature="e#27848#28477#0" />
-            <element signature="e#28535#29436#0" />
-            <element signature="e#29469#30369#0" />
-            <element signature="e#30430#30637#0" />
-            <element signature="e#30679#31522#0" />
-            <element signature="e#31586#33457#0" />
-            <element signature="e#33512#35048#0" />
-            <element signature="e#33512#35323#0" />
-            <element signature="e#35329#35610#0" />
-            <element signature="e#35706#36114#0" />
-            <element signature="e#36213#36657#0" />
-            <element signature="e#36766#37247#0" />
-            <element signature="e#37366#37882#0" />
-            <element signature="e#38011#38562#0" />
-            <element signature="e#38701#39286#0" />
-            <element signature="e#38701#39477#0" />
-            <element signature="e#39483#40107#0" />
-            <element signature="e#39483#40308#0" />
-            <element signature="e#40314#40974#0" />
-            <element signature="e#40314#41185#0" />
-            <element signature="e#41191#41885#0" />
-            <element signature="e#41191#42106#0" />
-            <element signature="e#42112#42841#0" />
-            <element signature="e#42112#43074#0" />
-            <element signature="e#43080#44130#0" />
-            <element signature="e#44135#44147#0" />
-            <element signature="e#43080#44672#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="2055" column="18" selection-start-line="2055" selection-start-column="18" selection-end-line="2055" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/util/List.java" />
+    <entry file="jar:///opt/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Class.java" />
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/IsEmpty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/AddAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/Contains.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -707,10 +528,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListAPITests/Add.java">
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/Contains.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="43" selection-end-column="93" />
+        <state relative-caret-position="162">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/ContainsAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -719,8 +557,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ListAPITests/Clear.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        <state relative-caret-position="374">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/AddAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListAPITests/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
