@@ -30,18 +30,7 @@ public class Add extends ListTesting {
     }
 
     public static void addElementToNegativeIndex_shouldAlwaysThrown(List list){
-        // given
-        boolean wereIndexOutOfBoundsExceptionThrown = false;
-        // when
-        try{
-            list.add(-20, 0);
-        }
-        catch (IndexOutOfBoundsException e){
-            wereIndexOutOfBoundsExceptionThrown = true;
-        }
-        // then
-        assert wereIndexOutOfBoundsExceptionThrown :
-                "Adding element at negative index didn't result in IndexOutOfBoundException";
+        assertExceptionExpected(list, new Object[]{-20, 0}, IndexOutOfBoundsException.class, "add", int.class, Object.class);
     }
 
     public static void addObjectToList_shouldBeDoable(List list){
@@ -59,5 +48,13 @@ public class Add extends ListTesting {
         list.add(null);
         // then
         assert list.get(0) == null : "Couldn't add null reference to a List";
+    }
+
+    public static void addSuccessful_shouldReturnTrue(List list){
+        // given
+        // when
+        boolean listAddSuccessfulShouldReturnTrue = list.add(new Object());
+        // then
+        assertEquals(list.getClass() + METHOD_NAME, true, listAddSuccessfulShouldReturnTrue);
     }
 }

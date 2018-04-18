@@ -64,6 +64,7 @@ class ListTest {
                 LOGGER.warning("Unable to invoke method " + testMethod.getName() + ", from class: " + testMethod.getClass());
                 e.printStackTrace();
             }
+
         }).start();
     }
 }

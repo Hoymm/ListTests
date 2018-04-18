@@ -16,7 +16,6 @@ public class Get extends ListTesting{
     }
 
     public static void getNegativeIndex_onList_shouldResultInOutOfBoundsExceptionThrown(List <Integer> list) {
-        list.add(13);
-        assertExceptionExpected(list, new Object[]{0}, IndexOutOfBoundsException.class,"get", int.class);
+        assertExceptionExpected(list, new Object[]{-1}, IndexOutOfBoundsException.class,"get", int.class);
     }
 }

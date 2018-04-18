@@ -68,7 +68,7 @@ abstract class ListTesting {
 
     private static <T> String printShouldBeSameOrDifferent(String comment, T expected, T actual, boolean shouldBeEqual) {
         return comment + "\n(expected): " + Colors.GREEN + expected + Colors.RESET
-                + (shouldBeEqual ? ", should equal " : ", shouldn't equal ")
+                + (shouldBeEqual ? ", should be equal " : ", shouldn't be equal ")
                 + "(actual): " + Colors.BLACK + actual + Colors.RESET;
     }
 
