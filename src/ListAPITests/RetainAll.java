@@ -14,6 +14,6 @@ public class RetainAll extends ListTesting{
         // when
         actualList.retainAll(Arrays.asList(3,5));
         // then
-        assertListsEquals(actualList.getClass() + METHOD_NAME, expectedList35, actualList);
+        assertListsEqual(actualList.getClass() + METHOD_NAME, expectedList35, actualList);
     }
 }

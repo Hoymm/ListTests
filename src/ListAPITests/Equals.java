@@ -7,30 +7,29 @@ import java.util.List;
 public class Equals extends ListTesting{
     private final static String METHOD_NAME = ".equals()";
 
-    public static void list123_equalsList123(List list123) {
+    public static void list123_equalsList123_shouldReturnTrue(List list) {
         // given
-        list123.addAll(Arrays.asList(1,2,3));
+        list.addAll(Arrays.asList(1,2,3));
         List exectedList123 = Arrays.asList(1,2,3);
         // when
         // then
-        assertListsEquals(list123.getClass() + METHOD_NAME, exectedList123, list123);
+        assertListsEqual(list.getClass() + METHOD_NAME, exectedList123, list);
     }
 
-    public static void list123_differentThan1234(List list123) {
+    public static void list123_equalsList1234_shouldReturnFalse(List list) {
         // given
-        list123.addAll(Arrays.asList(1,2,3));
+        list.addAll(Arrays.asList(1,2,3));
         List exectedList123 = Arrays.asList(1,2,3,4);
         // when
         // then
-        assertListsDifferent(list123.getClass() + METHOD_NAME, exectedList123, list123);
+        assertListsDifferent(list.getClass() + METHOD_NAME, exectedList123, list);
     }
 
-    public static void list123_differentThan132(List list123) {
+    public static void emptyList_equalsEmptyList_shouldReturnTrue(List list) {
         // given
-        list123.addAll(Arrays.asList(1,2,3));
-        List exectedList123 = Arrays.asList(1,3,2);
+        List emptyList = Arrays.asList();
         // when
         // then
-        assertListsDifferent(list123.getClass() + METHOD_NAME, exectedList123, list123);
+        assertListsEqual(list.getClass() + METHOD_NAME, emptyList, list);
     }
 }

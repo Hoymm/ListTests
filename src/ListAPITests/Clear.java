@@ -14,7 +14,7 @@ public class Clear extends ListTesting{
         // when
         list.clear();
         // then
-        assertListsEquals(list.getClass() + METHOD_NAME, emptyList, list);
+        assertListsEqual(list.getClass() + METHOD_NAME, emptyList, list);
     }
 
     public static void clearEmptyList_shouldResultInEmptyList(List list) {
@@ -23,6 +23,6 @@ public class Clear extends ListTesting{
         // when
         list.clear();
         // then
-        assertListsEquals(list.getClass() + METHOD_NAME, emptyList, list);
+        assertListsEqual(list.getClass() + METHOD_NAME, emptyList, list);
     }
 }

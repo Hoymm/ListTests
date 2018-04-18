@@ -3,9 +3,10 @@ import ListAPITests.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.math.BigInteger;
+import java.util.logging.Logger;
 
 class ListTest {
+    private static final Logger LOGGER = Logger.getLogger(IndexOf.class.getName());
     final static private Class [] classesToTest = new Class[]{
             Size.class
             , IsEmpty.class
@@ -60,8 +61,9 @@ class ListTest {
             try {
                 testMethod.invoke(null, listType.createNewObj());
             } catch (IllegalAccessException | InvocationTargetException e) {
-                System.err.println("Unable to invoke method "
+                LOGGER.warning("Unable to invoke method "
                         + testMethod.getName() + ", from class: " + testMethod.getClass());
+
                 e.printStackTrace();
             }
         }).start();

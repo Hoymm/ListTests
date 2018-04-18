@@ -1,6 +1,5 @@
 package ListAPITests;
 
-
 import java.util.List;
 
 public class IndexOf extends ListTesting{

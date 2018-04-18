@@ -12,7 +12,7 @@ public class Sort extends ListTesting{
         // when
         actualListShouldBe12345.sort((a, b) -> a - b);
         // then
-        assertListsEquals(actualListShouldBe12345.getClass() + METHOD_NAME
+        assertListsEqual(actualListShouldBe12345.getClass() + METHOD_NAME
                 , expectedList12345, actualListShouldBe12345);
     }
 }

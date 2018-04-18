@@ -8,7 +8,7 @@ abstract class ListTesting {
         assert expected.equals(actual) : printMessageShouldBeEquals(comment, expected, actual);
     }
 
-    public static void assertListsEquals(String comment, List expectedList, List actualList) {
+    public static void assertListsEqual(String comment, List expectedList, List actualList) {
         assert areListsEqual(expectedList, actualList) : printMessageShouldBeEquals(comment, expectedList, actualList);
     }
 

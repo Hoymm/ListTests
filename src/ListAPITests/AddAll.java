@@ -14,7 +14,7 @@ public class AddAll extends ListTesting{
         // when
         actualList.addAll(Arrays.asList(1,2,3));
         // then
-        assertListsEquals(actualList.getClass() + METHOD_NAME, expectedList0123, actualList);
+        assertListsEqual(actualList.getClass() + METHOD_NAME, expectedList0123, actualList);
     }
 
     public static void addFewElementsToListAtSpecifiedIndex_shouldBeDoable(List actualList) {
@@ -25,7 +25,7 @@ public class AddAll extends ListTesting{
         // when
         actualList.addAll(1, Arrays.asList(1,2,3));
         // then
-        assertListsEquals(actualList.getClass() + METHOD_NAME, expectedList01234, actualList);
+        assertListsEqual(actualList.getClass() + METHOD_NAME, expectedList01234, actualList);
     }
 
     public static void addFewElementsAtPositiveIndexThatIsOutOfBounds_shouldResultInIndexOutOfBoundsException(List actualList) {

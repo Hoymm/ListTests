@@ -1,6 +1,5 @@
 package ListAPITests;
 
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -14,5 +13,18 @@ public class Get extends ListTesting{
         int shouldBe9 = list.get(2);
         // then
         assertEquals(list.getClass() + METHOD_NAME, 9, shouldBe9);
+    }
+
+    public static void getNegativeIndex_onList789_shouldResult(List <Integer> list) {
+        // given
+        boolean isOutOfBoundsExpectionThrown = false;
+        // when
+        try {
+            list.get(-1);
+        }catch (IndexOutOfBoundsException e){
+            isOutOfBoundsExpectionThrown = true;
+        }
+        // then
+        assert isOutOfBoundsExpectionThrown : "Try to get negative index should result in IndexOutOfBoundsException";
     }
 }

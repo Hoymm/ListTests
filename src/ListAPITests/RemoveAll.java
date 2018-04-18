@@ -14,7 +14,7 @@ public class RemoveAll extends ListTesting{
         // when
         actualList.removeAll(Arrays.asList(1,2,4));
         // then
-        assertListsEquals(actualList.getClass() + METHOD_NAME, expectedList35, actualList);
+        assertListsEqual(actualList.getClass() + METHOD_NAME, expectedList35, actualList);
     }
 
     public static void list11112_removeAllList1_shouldResultInList2(List actualList) {
@@ -24,6 +24,6 @@ public class RemoveAll extends ListTesting{
         // when
         actualList.removeAll(Arrays.asList(1));
         // then
-        assertListsEquals(actualList.getClass() + METHOD_NAME, expectedList2, actualList);
+        assertListsEqual(actualList.getClass() + METHOD_NAME, expectedList2, actualList);
     }
 }
