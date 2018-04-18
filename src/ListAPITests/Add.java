@@ -55,6 +55,6 @@ public class Add extends ListTesting {
         // when
         boolean listAddSuccessfulShouldReturnTrue = list.add(new Object());
         // then
-        assertEquals(list.getClass() + METHOD_NAME, true, listAddSuccessfulShouldReturnTrue);
+        assertEquals(list.getClass() + METHOD_NAME, false, listAddSuccessfulShouldReturnTrue);
     }
 }

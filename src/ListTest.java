@@ -1,5 +1,6 @@
 import ListAPITests.*;
 
+import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -58,10 +59,14 @@ class ListTest {
 
     private static void testMethodInSepThread(Method testMethod, ListType listType) {
         new Thread(() -> {
+            String info = listType
+                    + Colors.PURPLE + testMethod.getDeclaringClass().getName() + " "
+                    + Colors.CYAN + testMethod.getName();
             try {
                 testMethod.invoke(null, listType.createNewObj());
+                System.out.println(Colors.GREEN + " Tests Passed " + Colors.RESET + info);
             } catch (IllegalAccessException | InvocationTargetException e) {
-                LOGGER.warning("Unable to invoke method " + testMethod.getName() + ", from class: " + testMethod.getClass());
+                System.out.println(Colors.RED + " Tests Failed " + Colors.RESET + info);
                 e.printStackTrace();
             }
 
