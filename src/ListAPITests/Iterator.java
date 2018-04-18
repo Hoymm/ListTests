@@ -6,7 +6,7 @@ import java.util.List;
 public class Iterator extends ListTesting{
     private final static String METHOD_NAME = ".iterator()";
 
-    public static void emptyIterator_hasNext_shouldReturnInFalse(List list) {
+    public static void emptyIterator_hasNext_shouldReturnFalse(List list) {
         // given
         java.util.Iterator iterator = list.iterator();
 
@@ -28,7 +28,7 @@ public class Iterator extends ListTesting{
             // then
             assertEquals(list.getClass() + METHOD_NAME, expected, actual);
         }
-        assert !iterator.hasNext() : list.getClass() + METHOD_NAME + " iterator should setted on last item.";
+        assert !iterator.hasNext() : list.getClass() + METHOD_NAME + ". Here iterator should be setted on last item.";
     }
 
 }

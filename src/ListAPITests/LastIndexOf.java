@@ -15,4 +15,12 @@ public class LastIndexOf extends ListTesting{
         // then
         assertEquals(list.getClass() + METHOD_NAME, 3, lastIndexOf4ShouldBe3);
     }
+    
+    public static void lastIndexOfElementThatIsNotOnTheList_shouldResultInNegativeOne(List list){
+        // given
+        // when
+        int lastIndexOfEmptyList = list.lastIndexOf(4);
+        // then
+        assertEquals(list.getClass() + METHOD_NAME, -1, lastIndexOfEmptyList);
+    }
 }
