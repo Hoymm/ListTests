@@ -14,6 +14,7 @@ public class ListIterator extends ListTesting{
         // when
 
         // then
+        // TODO handle it using StringBuilder, check how Tomek did it
         assertEquals(list.getClass() + METHOD_NAME, false ,listIterator.hasPrevious());
         assertEquals(list.getClass() + METHOD_NAME, 1,listIterator.next());
         assertEquals(list.getClass() + METHOD_NAME, 2,listIterator.next());

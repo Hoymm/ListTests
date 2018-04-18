@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Get extends ListTesting{
-    private final static String METHOD_NAME = ".get()";
+    static String METHOD_NAME = "get";
 
     public static void get2_onList789_shouldResultInValue9(List <Integer> list) {
         // given
@@ -16,15 +16,7 @@ public class Get extends ListTesting{
     }
 
     public static void getNegativeIndex_onList_shouldResultInOutOfBoundsExceptionThrown(List <Integer> list) {
-        // given
-        boolean isOutOfBoundsExpectionThrown = false;
-        // when
-        try {
-            list.get(-1);
-        }catch (IndexOutOfBoundsException e){
-            isOutOfBoundsExpectionThrown = true;
-        }
-        // then
-        assert isOutOfBoundsExpectionThrown : "Try to get negative index should result in IndexOutOfBoundsException";
+        list.add(13);
+        assertExceptionExpected(list, new Object[]{0}, IndexOutOfBoundsException.class,"get", int.class);
     }
 }
