@@ -61,8 +61,7 @@ class ListTest {
             try {
                 testMethod.invoke(null, listType.createNewObj());
             } catch (IllegalAccessException | InvocationTargetException e) {
-                LOGGER.warning("Unable to invoke method "
-                        + testMethod.getName() + ", from class: " + testMethod.getClass());
+                LOGGER.warning("Unable to invoke method " + testMethod.getName() + ", from class: " + testMethod.getClass());
 
                 e.printStackTrace();
             }
