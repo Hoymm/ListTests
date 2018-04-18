@@ -38,6 +38,6 @@ public class AddAll extends ListTesting{
 
     public static void addFewElementsAtNegativeIndex_shouldResultInIndexOutOfBoundsException(List list) {
         assertExceptionExpected(list, IndexOutOfBoundsException.class, "addAll"
-                , new Object[]{0, Arrays.asList(1, 2, 3)}, int.class, Collection.class);
+                , new Object[]{-1, Arrays.asList(1, 2, 3)}, int.class, Collection.class);
     }
 }
