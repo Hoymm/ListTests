@@ -7,13 +7,38 @@ import java.util.List;
 public class Clear extends ListTesting{
     private final static String METHOD_NAME = ".clear()";
 
-    public static void addElementsToList_clearList_compareToEmptyListShouldReturnTrue(List listAfterClearInvoked) {
+    public static void addElementsToList_clearList_compareToEmptyListShouldReturnTrue(List list) {
         // given
-        listAfterClearInvoked.addAll(Arrays.asList(1,2,3,4,5));
+        list.addAll(Arrays.asList(1,2,3,4,5));
         List emptyList = Arrays.asList();
         // when
-        listAfterClearInvoked.clear();
+        list.clear();
         // then
-        assertListsEquals(listAfterClearInvoked.getClass() + METHOD_NAME, emptyList, listAfterClearInvoked);
+        assertListsEquals(list.getClass() + METHOD_NAME, emptyList, list);
+    }
+
+    public static void clearEmptyList_shouldResultInEmptyList(List list) {
+        // given
+        List emptyList = Arrays.asList();
+        // when
+        list.clear();
+        // then
+        assertListsEquals(list.getClass() + METHOD_NAME, emptyList, list);
+    }
+
+    public static void nullList_clearMethodInvoke_shouldResultInNPTException(List list) {
+        // given
+        list = null;
+        boolean wasNPTExceptionThrown = false;
+        // when
+        try{
+            list.clear();
+        }
+        catch (NullPointerException e){
+            wasNPTExceptionThrown = true;
+        }
+        // then
+        assert wasNPTExceptionThrown :
+                ".clear() method on null pointer object should throw in NullPointerException";
     }
 }
