@@ -2,6 +2,7 @@ package ListAPITests;
 
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 public class AddAll extends ListTesting{
@@ -28,31 +29,15 @@ public class AddAll extends ListTesting{
         assertListsEqual(actualList.getClass() + METHOD_NAME, expectedList01234, actualList);
     }
 
-    public static void addFewElementsAtPositiveIndexThatIsOutOfBounds_shouldResultInIndexOutOfBoundsException(List actualList) {
-        // given
-        boolean outOfBoundExceptionThrown = false;
-        // when
-        try {
-            actualList.addAll(10, Arrays.asList(1,2,3));
-        }catch (IndexOutOfBoundsException e){
-            outOfBoundExceptionThrown = true;
-        }
-        // then
-        assert  outOfBoundExceptionThrown : "You added element at 10 index, you shouldn't be able to do that, because that"
-                + " index does not exists, IndexOutOfBoundsException should have been thrown.";
+    public static void addFewElementsAtPositiveIndexThatIsOutOfBounds_shouldResultInIndexOutOfBoundsException(List list) {
+        assertExceptionExpected(list, new Object[]{10, Arrays.asList(1,2,3)}
+                , IndexOutOfBoundsException.class, "addAll", int.class, Collection.class);
+
+
     }
 
-    public static void addFewElementsAtNegativeIndex_shouldResultInIndexOutOfBoundsException(List actualList) {
-        // given
-        boolean outOfBoundExceptionThrown = false;
-        // when
-        try {
-            actualList.addAll(-1, Arrays.asList(1, 2, 3));
-        }catch (IndexOutOfBoundsException e){
-            outOfBoundExceptionThrown = true;
-        }
-        // then
-        assert  outOfBoundExceptionThrown : "You added element at -1 index, you shouldn't be able to do that"
-                + ", IndexOutOfBoundsException should have been thrown.";
+    public static void addFewElementsAtNegativeIndex_shouldResultInIndexOutOfBoundsException(List list) {
+        assertExceptionExpected(list, new Object[]{-1, Arrays.asList(1, 2, 3)}
+        , IndexOutOfBoundsException.class, "addAll", int.class, Collection.class);
     }
 }

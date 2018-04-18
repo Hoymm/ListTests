@@ -1,5 +1,6 @@
 package ListAPITests;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 public class Add extends ListTesting {
@@ -16,17 +17,7 @@ public class Add extends ListTesting {
     }
 
     public static void addElementToListAtIndexThatIsBeyondArray_shouldProduceIndexOutOfBoundsException(List list) {
-        // given
-        boolean wereIndexOutOfBoundsExceptionThrown = false;
-        // when
-        try {
-            list.add(1, 0);
-        } catch (IndexOutOfBoundsException e) {
-            wereIndexOutOfBoundsExceptionThrown = true;
-        }
-        // then
-        assert wereIndexOutOfBoundsExceptionThrown :
-                "Try to add element at index beyond List result in IndexOutOfBoundException";
+        assertExceptionExpected(list, new Object[]{1, 0}, IndexOutOfBoundsException.class, "add", int.class, Object.class);
     }
 
     public static void addElementToNegativeIndex_shouldAlwaysThrown(List list){
@@ -55,6 +46,6 @@ public class Add extends ListTesting {
         // when
         boolean listAddSuccessfulShouldReturnTrue = list.add(new Object());
         // then
-        assertEquals(list.getClass() + METHOD_NAME, false, listAddSuccessfulShouldReturnTrue);
+        assertEquals(list.getClass() + METHOD_NAME, true, listAddSuccessfulShouldReturnTrue);
     }
 }
