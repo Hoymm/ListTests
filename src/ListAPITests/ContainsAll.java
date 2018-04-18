@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ContainsAll {
-    public static void doesList123_containsList13(List list123) {
+    public static void list123_containsList13_shouldReturnTrue(List list123) {
         // given
         list123.add(1);
         list123.add(2);

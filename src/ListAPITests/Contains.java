@@ -6,7 +6,7 @@ import java.util.List;
 public class Contains extends ListTesting {
     private final static String METHOD_NAME = ".contains()";
 
-    public static void emptyList_containsNull_shouldResultInFalse(List list) {
+    public static void emptyList_containsNull_shouldResulFalse(List list) {
         // given
         // when
         boolean emptyListContainsNullShouldBeFalse = list.contains(null);
@@ -23,7 +23,7 @@ public class Contains extends ListTesting {
         assertEquals(list.getClass() + METHOD_NAME, true, actual);
     }
 
-    public static void listOfObjects_listContainsStringNIE_MA_shouldResultInFalse(List list){
+    public static void listOfObjects_listContainsStringNIE_MA_shouldResultFalse(List list){
         // given
         list.addAll(Arrays.asList(1,2,3, new Object(), "heheh"));
         // when
