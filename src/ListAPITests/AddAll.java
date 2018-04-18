@@ -30,14 +30,14 @@ public class AddAll extends ListTesting{
     }
 
     public static void addFewElementsAtPositiveIndexThatIsOutOfBounds_shouldResultInIndexOutOfBoundsException(List list) {
-        assertExceptionExpected(list, new Object[]{10, Arrays.asList(1,2,3)}
-                , IndexOutOfBoundsException.class, "addAll", int.class, Collection.class);
+        assertExceptionExpected(list, IndexOutOfBoundsException.class, "addAll"
+                , new Object[]{10, Arrays.asList(1,2,3)}, int.class, Collection.class);
 
 
     }
 
     public static void addFewElementsAtNegativeIndex_shouldResultInIndexOutOfBoundsException(List list) {
-        assertExceptionExpected(list, new Object[]{-1, Arrays.asList(1, 2, 3)}
-        , IndexOutOfBoundsException.class, "addAll", int.class, Collection.class);
+        assertExceptionExpected(list, IndexOutOfBoundsException.class, "addAll"
+                , new Object[]{0, Arrays.asList(1, 2, 3)}, int.class, Collection.class);
     }
 }

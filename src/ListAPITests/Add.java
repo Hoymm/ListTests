@@ -17,11 +17,11 @@ public class Add extends ListTesting {
     }
 
     public static void addElementToListAtIndexThatIsBeyondArray_shouldProduceIndexOutOfBoundsException(List list) {
-        assertExceptionExpected(list, new Object[]{1, 0}, IndexOutOfBoundsException.class, "add", int.class, Object.class);
+        assertExceptionExpected(list,IndexOutOfBoundsException.class, "add", new Object[]{1, 0},  int.class, Object.class);
     }
 
     public static void addElementToNegativeIndex_shouldAlwaysThrown(List list){
-        assertExceptionExpected(list, new Object[]{-20, 0}, IndexOutOfBoundsException.class, "add", int.class, Object.class);
+        assertExceptionExpected(list, IndexOutOfBoundsException.class, "add", new Object[]{-20, 0}, int.class, Object.class);
     }
 
     public static void addObjectToList_shouldBeDoable(List list){

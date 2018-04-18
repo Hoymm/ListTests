@@ -2,6 +2,8 @@ import ListAPITests.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.logging.Logger;
 
 class ListTest {
@@ -57,16 +59,24 @@ class ListTest {
 
     private static void testMethodInSepThread(Method testMethod, ListType listType) {
         new Thread(() -> {
-            String info = listType + " "
-                    + Colors.PURPLE + testMethod.getDeclaringClass().getName() + " "
-                    + Colors.CYAN + testMethod.getName();
+            long startTime = System.currentTimeMillis();
+            StringBuffer info = new StringBuffer();
+
             try {
                 testMethod.invoke(null, listType.createNewObj());
-                System.out.println(Colors.GREEN + " Test Passed " + Colors.RESET + info);
-            } catch (IllegalAccessException | InvocationTargetException e) {
-                System.out.println(Colors.RED + " Test Failed " + Colors.RESET + info);
+                info.append(Colors.GREEN).append(" Test Passed ").append(Colors.RESET);
+            } catch (IllegalAccessException e) {
+                LOGGER.warning("Error when trying to invoke method " + testMethod.getName());
+            } catch (InvocationTargetException e) {
+                info.append(Colors.RED).append(" Test Failed ").append(Colors.RESET);
                 e.printStackTrace();
             }
+            info.append(String.valueOf(listType)).append(" ")
+                    .append(Colors.PURPLE).append(testMethod.getDeclaringClass().getName()).append(" ")
+                    .append(Colors.CYAN).append(testMethod.getName())
+                    .append(Colors.BLACK).append(", Time: ").append(System.currentTimeMillis()-startTime).append("ms.");
+
+            System.out.println(info);
 
         }).start();
     }

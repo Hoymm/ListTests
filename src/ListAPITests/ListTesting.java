@@ -23,7 +23,7 @@ abstract class ListTesting {
     }
 
     // TODO refactor method too many args here
-    public static void assertExceptionExpected(List<Integer> list, Object [] args, Class exception, String methodName, Class<?>... methodParamTypes) {
+    public static void assertExceptionExpected(List<Integer> list, Class exception, String methodName, Object [] args,  Class<?>... methodParamTypes) {
         try {
             Method methodGet = list.getClass().getMethod(methodName, methodParamTypes);
             InvocationTargetException exceptionThrown = null;

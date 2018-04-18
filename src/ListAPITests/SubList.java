@@ -16,4 +16,11 @@ public class SubList extends ListTesting{
         // then
         assertEquals(list.getClass() + METHOD_NAME, expectedList345, list);
     }
+
+    public static void list0123_sublistFrom0To20_shouldThrowIndexOutOfBoundsException (List list){
+        // given
+        // when
+        // then
+        assertExceptionExpected(list, IndexOutOfBoundsException.class, "subList", new Object[]{0,20}, int.class, int.class);
+    }
 }
