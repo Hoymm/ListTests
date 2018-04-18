@@ -26,6 +26,7 @@ public class Clear extends ListTesting{
         assertListsEquals(list.getClass() + METHOD_NAME, emptyList, list);
     }
 
+    // TODO should I actually test a case where invoking method on null reference? this should always result in NPE
     public static void nullList_clearMethodInvoke_shouldResultInNPTException(List list) {
         // given
         list = null;
