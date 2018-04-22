@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class HashCode extends ListTesting{
-    private final static String METHOD_NAME = ".hashCode()";
 
     public static void emptyListHashCode_shouldReturn1(List list) {
         assert list.hashCode() == 1 : "Empty list hashcode due to specification should return 1, your list.hashCode is equal to " + list.hashCode();

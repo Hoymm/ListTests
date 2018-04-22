@@ -2,8 +2,6 @@ import ListAPITests.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.util.LinkedList;
-import java.util.List;
 import ListAPITests.Colors;
 import java.util.logging.Logger;
 
@@ -12,29 +10,29 @@ import static ListAPITests.Colors.*;
 class ListTest {
     private static final Logger LOGGER = Logger.getLogger(IndexOf.class.getName());
     final static private Class [] classesToTest = new Class[]{
-            Size.class
-            , IsEmpty.class
-            , Contains.class
-            , Iterator.class
-            , ToArray.class
-            , ContainsAll.class
-            , AddAll.class
-            , RemoveAll.class
-            , RetainAll.class
-            , ReplaceAll.class
-            , Sort.class
-            , Clear.class
-            , RemoveAll.class
-            , Equals.class
-            , HashCode.class
-            , Get.class
-            , Set.class
-            , Add.class
-            , Remove.class
-            , IndexOf.class
-            , LastIndexOf.class
-            , ListIterator.class
-            , SubList.class
+            Size.class,
+            IsEmpty.class,
+            Contains.class,
+            Iterator.class,
+            ToArray.class,
+            ContainsAll.class,
+            AddAll.class,
+            RemoveAll.class,
+            RetainAll.class,
+            ReplaceAll.class,
+            Sort.class,
+            Clear.class,
+            RemoveAll.class,
+            Equals.class,
+            HashCode.class,
+            Get.class,
+            Set.class,
+            Add.class,
+            Remove.class,
+            IndexOf.class,
+            LastIndexOf.class,
+            ListIterator.class,
+            SubList.class
     };
 
     static void runTestsForListImplementation(ListType listType) {
