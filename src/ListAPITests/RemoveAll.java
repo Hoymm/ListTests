@@ -53,7 +53,9 @@ public class RemoveAll extends ListTesting{
         // when
         boolean listWasModified = list.removeAll(objListToRemove);
         // then
-        assert listWasModified : "List" + list + ".removeAll(" + objListToRemove +") should return false, because list was not modified.";
+        assert listWasModified : String.format
+                ("List (1,2,3).removeAll(\"%s\") should return true, because list was not modified."
+                        , objListToRemove.toString());
         assert list.isEmpty() : "List should be empty";
     }
 }
