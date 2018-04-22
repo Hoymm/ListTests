@@ -4,7 +4,10 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.LinkedList;
 import java.util.List;
+import ListAPITests.Colors;
 import java.util.logging.Logger;
+
+import static ListAPITests.Colors.*;
 
 class ListTest {
     private static final Logger LOGGER = Logger.getLogger(IndexOf.class.getName());
@@ -73,7 +76,7 @@ class ListTest {
             }
             info.append(String.valueOf(listType)).append(" ")
                     .append(Colors.PURPLE).append(testMethod.getDeclaringClass().getName()).append(" ")
-                    .append(Colors.CYAN).append(testMethod.getName())
+                    .append(CYAN).append(testMethod.getName())
                     .append(Colors.BLACK).append(", Time: ").append(System.currentTimeMillis()-startTime).append("ms.");
 
             System.out.println(info);
